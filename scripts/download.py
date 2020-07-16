@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
     # Make query (docs here: https://developer.twitter.com/en/docs/tweets/search/overview/premium#AvailableOperators)
     query = ''  # Initialize query
-    query = query + (' OR '.join(keywords) if keywords else '')  # Add keywords
+    query = query + (' AND '.join(keywords) if keywords else '')  # Add keywords
     query = query + (' lang:{0:s}'.format(language) if language else '')  # Add language
 
     # Get API label and product
