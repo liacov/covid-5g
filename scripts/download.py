@@ -1,17 +1,62 @@
-# Set root
-import sys, os; sys.path.insert(1, os.path.join(sys.path[0], '..'))
 # Dependencies
-from modules.dataset.tweets import API_PRODUCT_30DAY, API_PRODUCT_FULL
-from modules.dataset.tweets import Tweets
+from TwitterAPI import TwitterAPI, TwitterPager
 from datetime import datetime, date, timedelta
+import numpy as np
 import argparse
 import random
+import json
 import time
 import re
 
-
 # Constants
-AUTH_PATH = 'data/auth.json'  # Path to deafult authentication credentials file
+# Path to deafult authentication credentials file
+AUTH_PATH = 'data/auth.json'
+# Products
+API_PRODUCT_30DAY = '30day'
+
+
+# Authentication: allows to query Twitter's web APIs
+def auth(consumer_key, consumer_secret, token_key, token_secret):
+    # Return asuthenticated twitter APIs object
+    api = TwitterAPI(
+        consumer_key=consumer_key, consumer_secret=consumer_secret,
+        access_token_key=token_key, access_token_secret=token_secret
+    )
+
+    return api
+
+def authenticate(in_path):
+    """
+    Load credentials stored in secrets_file_path.json
+    Return TwitterAPI object created using credentials
+    """
+    # Initialize credentials
+    credentials = {}
+    # Load credentials file
+    with open(in_path, 'r') as in_file:
+        credentials = json.load(in_file)
+
+    return auth(**credentials)
+
+
+def get_tweets(api, query, from_date, to_date, product, label, batch_size):
+    """
+    Return 100 tweets for a specific date
+    date format is <yyyymmddhhmm> (201912250000)
+    """
+    # Parse from and to dates
+    from_date = from_date.strftime('%Y%m%d%H%M') if from_date is not None else None
+    to_date = to_date.strftime('%Y%m%d%H%M') if from_date is not None else None
+    # Generate request
+    r = api.request('tweets/search/{0:}/:{1:}'.format(product, label),
+                    {
+                        'query': query,
+                        'maxResults': batch_size,
+                        'fromDate': from_date,
+                        'toDate': to_date
+                    }
+                    )
+    return r
 
 
 # Define function for sampling datetime intervals (from date - to date)
@@ -64,45 +109,11 @@ def sample_intervals(from_date, to_date, window=(1, 0, 0)):
     return samples
 
 
-# Main
-if __name__ == '__main__':
+def main(args):
+    # va sostituito con il sampling di damiano
+    # dates_list = create_dates(start_date=START_DATE,num_requests=NUM_REQUESTS)
 
-    # Define arguments
-    parser = argparse.ArgumentParser()
-    # Must the output file be overwritten? (T/F)
-    parser.add_argument('--overwrite', type=bool, default=False)
-    # Start date of download period (iso format YYYY-mm-dd)
-    parser.add_argument('--from_date', type=str, required=True)
-    # End date of download period (iso format YYYY-mm-dd)
-    parser.add_argument('--to_date', type=str)
-    # Number of days to add to <start_date> in order to obtain <to_date>
-    # This overrides <to_date> parameter
-    parser.add_argument('--add_days', type=int)
-    # Window expressed as hours, minutes, seconds (default 1 hour)
-    parser.add_argument('--window', nargs='+', type=int, default=[])
-    # Keywords list to be used in query
-    parser.add_argument('--keywords', nargs='+', type=str, default=[])
-    # Filter tweets language (according to twitter language)
-    parser.add_argument('--language', type=str, default='en')
-    # Number of tweets retrieved for each request
-    parser.add_argument('--batch_size', type=int, default=100)
-    # Output file path, where to store data (.json formatted)
-    parser.add_argument('--out_path', type=str, required=True)
-    # Authentication credentials file path
-    parser.add_argument('--auth_path', type=str, default=AUTH_PATH)
-    # Twitter-level application name
-    parser.add_argument('--label', type=str, required=True)
-    # Twitter.level product name
-    parser.add_argument('--product', type=str, default=API_PRODUCT_30DAY)
-    # Sampling seed (allows reproducibility)
-    parser.add_argument('--seed', type=int, required=False)
-    # Parse arguments to dictionary
-    args = parser.parse_args()
-
-    # Set random seed, if specified
-    if args.seed is not None:
-        random.seed(args.seed)
-
+    ######################################
     # Get start date and interval (in days)
     from_date = date.fromisoformat(args.from_date)
     # Case <add_days> is set
@@ -140,10 +151,13 @@ if __name__ == '__main__':
     # Get language
     language = args.language
 
-    # Make query (docs here: https://developer.twitter.com/en/docs/tweets/search/overview/premium#AvailableOperators)
+    # create query, list of available operators here:
+    # https://developer.twitter.com/en/docs/tweets/search/overview/premium#AvailableOperators
     query = ''  # Initialize query
-    query = query + (' AND '.join(keywords) if keywords else '')  # Add keywords
+    query = query + (' OR '.join(keywords) if keywords else '')  # Add keywords
     query = query + (' lang:{0:s}'.format(language) if language else '')  # Add language
+    # NB: logical connectors must be changed manually - mixed query must be written as string
+    # print('Generated query: ', query, end='\n\n')
 
     # Get API label and product
     label = args.label
@@ -162,30 +176,37 @@ if __name__ == '__main__':
     # Get sampled intervals
     samples = sample_intervals(from_date, to_date, window=window)
 
-    # Instantiate new Tweets dataset
-    tweets = Tweets()
-    # Authenticate using auth file
-    tweets.auth_from_json(in_path=auth_path)
-
     # Check if output file must be overwritten
     if overwrite:
         # Create empty file
         open(out_path, 'w', encoding='utf-8').close()
 
+    ############################################
+
+    # authenticate
+    api = authenticate(auth_path)
+
+    ################################################
     # Log download started
     print('Downloading samples...')
     # Loop through each sampling interval
     for i, (ws_datetime, we_datetime) in enumerate(samples):
-        # Get tweets for the sampled interval
-        tweets.search_tweets(
-            query=query,
-            from_date=ws_datetime,
-            to_date=we_datetime,
-            batch_size=batch_size,
-            label=label,
-            product=product,
-            jsonl_path=out_path
-        )
+        with open(out_path, 'a', encoding='utf-8') as f:
+            # Get tweets for the sampled interval
+            tweets = get_tweets(
+                api=api,
+                query=query,
+                from_date=ws_datetime,
+                to_date=we_datetime,
+                label=label,
+                product=product,
+                batch_size=batch_size
+            )
+            # Write tweets to file
+            for tweet in tweets:
+                json.dump(tweet, f)
+                f.write('\n')
+
         # Show download progress
         print('  ({0:d}/{1:d}) first {2:d} tweets from {3:s} to {4:s}'.format(
             i + 1,  # Current iteration
@@ -196,3 +217,45 @@ if __name__ == '__main__':
         ))
         # Sleep 2 seconds
         time.sleep(2)
+    ############################################
+
+
+if __name__ == "__main__":
+
+    # Define arguments
+    parser = argparse.ArgumentParser()
+    # Must the output file be overwritten? (T/F)
+    parser.add_argument('--overwrite', type=bool, default=False)
+    # Start date of download period (iso format YYYY-mm-dd)
+    parser.add_argument('--from_date', type=str, required=True)
+    # End date of download period (iso format YYYY-mm-dd)
+    parser.add_argument('--to_date', type=str)
+    # Number of days to add to <start_date> in order to obtain <to_date>
+    # This overrides <to_date> parameter
+    parser.add_argument('--add_days', type=int)
+    # Window expressed as hours, minutes, seconds (default 1 hour)
+    parser.add_argument('--window', nargs='+', type=int, default=[])
+    # Keywords list to be used in query
+    parser.add_argument('--keywords', nargs='+', type=str, default=[])
+    # Filter tweets language (according to twitter language)
+    parser.add_argument('--language', type=str, default='en')
+    # Number of tweets retrieved for each request
+    parser.add_argument('--batch_size', type=int, default=100)
+    # Output file path, where to store data (.json formatted)
+    parser.add_argument('--out_path', type=str, required=True)
+    # Authentication credentials file path
+    parser.add_argument('--auth_path', type=str, default=AUTH_PATH)
+    # Twitter-level application name
+    parser.add_argument('--label', type=str, required=True)
+    # Twitter.level product name
+    parser.add_argument('--product', type=str, default=API_PRODUCT_30DAY)
+    # Sampling seed (allows reproducibility)
+    parser.add_argument('--seed', type=int, required=False)
+    # Parse arguments to dictionary
+    args = parser.parse_args()
+
+    # Set random seed, if specified
+    if args.seed is not None:
+        random.seed(args.seed)
+
+    main(args)
