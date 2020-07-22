@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from langdetect import detect
 from scipy import sparse
 import networkx as nx
 import json_lines
@@ -18,7 +19,7 @@ def get_edges(hastags):
     """
     return [x for x in itertools.combinations(hastags, 2)]
 
-def load_jsonl(file):
+def load_jsonl(file, lang):
     with open(file, 'rb') as f:
         # extract relevant fields from tweets. Be aware that replies
         # have a different structure. For example, assuming we would
@@ -39,7 +40,8 @@ def load_jsonl(file):
                     final_tweet = tweet['extended_tweet']
                 except:
                     final_tweet = tweet
-            list_tweets_hashtags.append(get_hashtags(final_tweet))
+            if detect(tweet['text']) == lang:
+                    list_tweets_hashtags.append(get_hashtags(final_tweet))
     return list_tweets_hashtags
 
 
@@ -54,11 +56,13 @@ if __name__ == "__main__":
     parser.add_argument('--adj_path', type=str, required=True)
     # Output file path, where to store data (.json formatted)
     parser.add_argument('--gephi_path', type=str, required=True)
+    # Languange
+    parser.add_argument('--lang', type=str, required=True)
     # Parse arguments to dictionary
     args = parser.parse_args()
 
     print("Loading hashtags...")
-    list_tweets_hashtags = load_jsonl(args.data_path)
+    list_tweets_hashtags = load_jsonl(args.data_path, args.lang)
 
     print("Generating network...")
 
@@ -87,8 +91,8 @@ if __name__ == "__main__":
     # Save adjacency matrix
     print('Savign adjacency matrix as {}'.format(args.adj_path))
     adj = nx.to_scipy_sparse_matrix(cc)
-    sparse.save_npz(adj_path, adj)
+    sparse.save_npz(args.adj_path, adj)
 
     # Save file for gephi
     print("Saving gepx file as {}".format(args.gephi_path))
-    nx.write_gexf(cc, gephi_path, version='1.2draft')
+    nx.write_gexf(cc, args.gephi_path, version='1.2draft')
