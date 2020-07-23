@@ -91,6 +91,7 @@ if __name__ == "__main__":
     # Save adjacency matrix
     print('Savign adjacency matrix as {}'.format(args.adj_path))
     adj = nx.to_scipy_sparse_matrix(cc)
+    print('Shape:', adj.shape)
     sparse.save_npz(args.adj_path, adj)
 
     # Save file for gephi
