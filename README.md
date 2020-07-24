@@ -5,7 +5,7 @@
 The ```download.py``` script allows to download tweets with different kind of queries, randomly sampling the used time intervals.
 
 ### OPTION 1
-- Command: ```python scripts/download.py --from_date "2020-07-01" --add_days 2 --out_path "data/tweets_test_2.jsonl" --label "ClimateDev" --product "30day" --keywords "#COVID" "#COVID19" --language en```
+- Command: ```python scripts/download.py --from_date "2020-07-01" --add_days 2 --out_path "some/path.jsonl" --label <env_name> --product <product_name> --keywords "#COVID" "#COVID19" --language en```
 - Output: ```Sampling tweets from 2020-07-01 to 2020-07-03
 Generated query:  #COVID OR #COVID19 lang:en
 Downloading samples...
@@ -13,7 +13,7 @@ Downloading samples...
   (2/2) first 100 tweets from 2020-07-02 06:31:13 to 2020-07-02 07:31:13```
 
 ### OPTION 2
-- Command: ```python scripts/download.py --from_date "2020-07-01" --add_days 2 --out_path "data/tweets_test_2.jsonl" --label "ClimateDev" --product "30day" --keywords "#COVID" "#COVID19" --add_5g --language en```
+- Command: ```python scripts/download.py --from_date "2020-07-01" --add_days 2 --out_path "some/path.jsonl" --label <env_name> --product <product_name> --keywords "#COVID" "#COVID19" --add_5g --language en```
 - Output: ```Sampling tweets from 2020-07-01 to 2020-07-03
 Generated query:  (#5g #COVID) OR (#5g #COVID19) lang:en
 Downloading samples...
