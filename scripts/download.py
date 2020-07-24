@@ -110,10 +110,7 @@ def sample_intervals(from_date, to_date, window=(1, 0, 0)):
 
 
 def main(args):
-    # va sostituito con il sampling di damiano
-    # dates_list = create_dates(start_date=START_DATE,num_requests=NUM_REQUESTS)
 
-    ######################################
     # Get start date and interval (in days)
     from_date = date.fromisoformat(args.from_date)
     # Case <add_days> is set
@@ -153,11 +150,13 @@ def main(args):
 
     # create query, list of available operators here:
     # https://developer.twitter.com/en/docs/tweets/search/overview/premium#AvailableOperators
+    if args.add_5g:
+        keywords = ['(#5g ' + kw + ')' for kw in keywords ]
     query = ''  # Initialize query
     query = query + (' OR '.join(keywords) if keywords else '')  # Add keywords
     query = query + (' lang:{0:s}'.format(language) if language else '')  # Add language
     # NB: logical connectors must be changed manually - mixed query must be written as string
-    # print('Generated query: ', query, end='\n\n')
+    print('Generated query: ', query, end='\n\n')
 
     # Get API label and product
     label = args.label
@@ -181,12 +180,9 @@ def main(args):
         # Create empty file
         open(out_path, 'w', encoding='utf-8').close()
 
-    ############################################
-
     # authenticate
     api = authenticate(auth_path)
 
-    ################################################
     # Log download started
     print('Downloading samples...')
     # Loop through each sampling interval
@@ -217,7 +213,6 @@ def main(args):
         ))
         # Sleep 2 seconds
         time.sleep(2)
-    ############################################
 
 
 if __name__ == "__main__":
@@ -225,7 +220,9 @@ if __name__ == "__main__":
     # Define arguments
     parser = argparse.ArgumentParser()
     # Must the output file be overwritten? (T/F)
-    parser.add_argument('--overwrite', type=bool, default=False)
+    parser.add_argument('--overwrite', dest='overwrite', action='store_true')
+    parser.add_argument('--no-overwrite', dest='overwrite', action='store_false')
+    parser.set_defaults(overwrite=True)
     # Start date of download period (iso format YYYY-mm-dd)
     parser.add_argument('--from_date', type=str, required=True)
     # End date of download period (iso format YYYY-mm-dd)
@@ -237,6 +234,10 @@ if __name__ == "__main__":
     parser.add_argument('--window', nargs='+', type=int, default=[])
     # Keywords list to be used in query
     parser.add_argument('--keywords', nargs='+', type=str, default=[])
+    # Must #5g be added with an AND logical connector? (T/F)
+    parser.add_argument('--add_5g', dest='add_5g', action='store_true')
+    parser.add_argument('--no_add_5g', dest='add_5g', action='store_false')
+    parser.set_defaults(add_5g=False)
     # Filter tweets language (according to twitter language)
     parser.add_argument('--language', type=str, default='en')
     # Number of tweets retrieved for each request
