@@ -19,3 +19,18 @@ Generated query:  (#5g #COVID) OR (#5g #COVID19) lang:en
 Downloading samples...
   (1/2) first 100 tweets from 2020-07-01 16:41:14 to 2020-07-01 17:41:14
   (2/2) first 100 tweets from 2020-07-02 08:43:32 to 2020-07-02 09:43:32```
+
+## Authentication
+
+Authentication to Twitter APIs can be enable by just filling in `data/auth.json` file as follows:
+
+```
+{
+    "consumer_key": "fill-with-consumer-key",
+    "consumer_secret": "fill-with-consumer-secret",
+    "token_key": "fill-with-token-key",
+    "token_secret": "fill-with-token-secret"
+}
+```
+
+Data can be easily retrieved from Twitter developer's dashboard.
