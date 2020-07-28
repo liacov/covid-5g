@@ -33,4 +33,4 @@ Authentication to Twitter APIs can be enable by just filling in `data/auth.json`
 }
 ```
 
-Data can be easily retrieved from Twitter developer's dashboard.
+These data can be easily retrieved from Twitter developer's dashboard.
