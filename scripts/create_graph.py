@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 from langdetect import detect
 from scipy import sparse
+import unidecode as ud
 import networkx as nx
 import json_lines
 import itertools
 import argparse
 import json
+import re
 
 def get_hashtags(tweet):
     """
@@ -31,17 +33,23 @@ def load_jsonl(file, lang):
             if 'retweeted_status' in tweet:
                 try:
                     final_tweet = tweet['retweeted_status']['extended_tweet']
+                    text = final_tweet['full_text']
                 except:
                     # text and hashtags have not been truncated
                     final_tweet = tweet['retweeted_status']
+                    text = final_tweet['text']
             # no reply
             else:
                 try:
                     final_tweet = tweet['extended_tweet']
+                    text = final_tweet['full_text']
                 except:
                     final_tweet = tweet
-            if detect(tweet['text']) == lang:
-                    list_tweets_hashtags.append(get_hashtags(final_tweet))
+                    text = final_tweet['text']
+            text = ud.unidecode(text)
+            text = re.sub(r'[^\w-]','', text)
+            if text != '' and detect(text) == lang:
+                list_tweets_hashtags.append(get_hashtags(final_tweet))
     return list_tweets_hashtags
 
 

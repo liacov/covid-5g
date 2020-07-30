@@ -1,0 +1,1918 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>30/07/2020</lastmodified>
+    </meta>
+    <nodes>
+      <node id="emergenza" label="emergenza" />
+      <node id="coronavirus" label="coronavirus" />
+      <node id="5g" label="5g" />
+      <node id="chine" label="chine" />
+      <node id="covid19" label="covid19" />
+      <node id="wuhan" label="wuhan" />
+      <node id="china" label="china" />
+      <node id="economiacontagiata" label="economiacontagiata" />
+      <node id="tecnologia" label="tecnologia" />
+      <node id="barcellona" label="barcellona" />
+      <node id="germania" label="germania" />
+      <node id="huawei" label="huawei" />
+      <node id="pillolesuldigitale" label="pillolesuldigitale" />
+      <node id="19febbraio" label="19febbraio" />
+      <node id="sicurezzareteinternet" label="sicurezzareteinternet" />
+      <node id="lavoro" label="lavoro" />
+      <node id="coronavirusinformatico" label="coronavirusinformatico" />
+      <node id="privacy" label="privacy" />
+      <node id="sicurezza" label="sicurezza" />
+      <node id="ia" label="ia" />
+      <node id="covid_19" label="covid_19" />
+      <node id="smartcity" label="smartcity" />
+      <node id="pd" label="pd" />
+      <node id="coronarovirus" label="coronarovirus" />
+      <node id="censorship" label="censorship" />
+      <node id="wuhancoronavirus" label="wuhancoronavirus" />
+      <node id="blackswan" label="blackswan" />
+      <node id="coronavirusitalia" label="coronavirusitalia" />
+      <node id="coronavirusitaly" label="coronavirusitaly" />
+      <node id="diagnosi" label="diagnosi" />
+      <node id="remoto" label="remoto" />
+      <node id="zte" label="zte" />
+      <node id="chinatelecom" label="chinatelecom" />
+      <node id="asiatica" label="asiatica" />
+      <node id="viadellaseta" label="viadellaseta" />
+      <node id="droni" label="droni" />
+      <node id="robot" label="robot" />
+      <node id="bigdata" label="bigdata" />
+      <node id="3gpp" label="3gpp" />
+      <node id="assange" label="assange" />
+      <node id="turchia" label="turchia" />
+      <node id="usa" label="usa" />
+      <node id="paesipoveri" label="paesipoveri" />
+      <node id="rifiuti" label="rifiuti" />
+      <node id="cina" label="cina" />
+      <node id="guerra" label="guerra" />
+      <node id="dazi" label="dazi" />
+      <node id="attacco" label="attacco" />
+      <node id="bioterrorismo" label="bioterrorismo" />
+      <node id="giochimilitari" label="giochimilitari" />
+      <node id="fortbragg" label="fortbragg" />
+      <node id="psyop" label="psyop" />
+      <node id="med" label="med" />
+      <node id="delta" label="delta" />
+      <node id="realtime" label="realtime" />
+      <node id="sars" label="sars" />
+      <node id="madeinitaly" label="madeinitaly" />
+      <node id="çin" label="çin" />
+      <node id="gates" label="gates" />
+      <node id="netflix" label="netflix" />
+      <node id="propagandavaccinale" label="propagandavaccinale" />
+      <node id="telco" label="telco" />
+      <node id="digiteconomy24" label="digiteconomy24" />
+      <node id="luissbusiness" label="luissbusiness" />
+      <node id="covid2019" label="covid2019" />
+      <node id="tlc" label="tlc" />
+      <node id="vaccini" label="vaccini" />
+      <node id="whuan" label="whuan" />
+      <node id="guidaautonoma" label="guidaautonoma" />
+      <node id="selfdrivingcars" label="selfdrivingcars" />
+      <node id="ai" label="ai" />
+      <node id="iot" label="iot" />
+      <node id="autonomousvehicles" label="autonomousvehicles" />
+      <node id="selfdriving" label="selfdriving" />
+      <node id="autonomous" label="autonomous" />
+      <node id="robotics" label="robotics" />
+      <node id="tech" label="tech" />
+      <node id="driverless" label="driverless" />
+      <node id="driverlesscars" label="driverlesscars" />
+      <node id="startups" label="startups" />
+      <node id="startup" label="startup" />
+      <node id="artificialintelligence" label="artificialintelligence" />
+      <node id="robots" label="robots" />
+      <node id="mobility" label="mobility" />
+      <node id="bigtech" label="bigtech" />
+      <node id="armabiologica" label="armabiologica" />
+      <node id="brevetti" label="brevetti" />
+      <node id="cia" label="cia" />
+      <node id="sistemaimmunitario" label="sistemaimmunitario" />
+      <node id="resetfinanziarioglobale" label="resetfinanziarioglobale" />
+      <node id="shanghai" label="shanghai" />
+      <node id="bandalarga" label="bandalarga" />
+      <node id="intelligence" label="intelligence" />
+      <node id="sicurezzanazionale" label="sicurezzanazionale" />
+      <node id="cybersecurity" label="cybersecurity" />
+      <node id="studio" label="studio" />
+      <node id="video" label="video" />
+      <node id="immunodepressione" label="immunodepressione" />
+      <node id="virus" label="virus" />
+      <node id="telematica" label="telematica" />
+      <node id="ospedali" label="ospedali" />
+      <node id="fabbriche" label="fabbriche" />
+      <node id="automazione" label="automazione" />
+      <node id="trasporti" label="trasporti" />
+      <node id="videosorveglianza" label="videosorveglianza" />
+      <node id="security" label="security" />
+      <node id="robotica" label="robotica" />
+      <node id="tim" label="tim" />
+      <node id="idiotiallosbando" label="idiotiallosbando" />
+      <node id="agi" label="agi" />
+      <node id="ar" label="ar" />
+      <node id="tesicomplottiste" label="tesicomplottiste" />
+      <node id="umanoidi" label="umanoidi" />
+      <node id="grillo" label="grillo" />
+      <node id="apple" label="apple" />
+      <node id="bloomberg" label="bloomberg" />
+      <node id="iphone" label="iphone" />
+      <node id="appleblog" label="appleblog" />
+      <node id="applenews" label="applenews" />
+      <node id="twitter" label="twitter" />
+      <node id="facebook" label="facebook" />
+      <node id="iorestoacasa" label="iorestoacasa" />
+      <node id="zonarossa" label="zonarossa" />
+      <node id="homeoffice" label="homeoffice" />
+      <node id="vodafone" label="vodafone" />
+      <node id="4g" label="4g" />
+      <node id="3g" label="3g" />
+      <node id="internet" label="internet" />
+      <node id="leolov" label="leolov" />
+      <node id="madeinchina" label="madeinchina" />
+      <node id="defendereurope20" label="defendereurope20" />
+      <node id="coviditaly" label="coviditaly" />
+      <node id="verizon" label="verizon" />
+      <node id="ehealth" label="ehealth" />
+      <node id="telemedicina" label="telemedicina" />
+      <node id="sanita" label="sanita" />
+      <node id="game" label="game" />
+      <node id="rogphone" label="rogphone" />
+      <node id="gaming" label="gaming" />
+      <node id="googlestadia" label="googlestadia" />
+      <node id="smarphone" label="smarphone" />
+      <node id="asus" label="asus" />
+      <node id="snapdragon" label="snapdragon" />
+      <node id="android10" label="android10" />
+      <node id="iwce2020" label="iwce2020" />
+      <node id="lasvegas" label="lasvegas" />
+      <node id="wireless" label="wireless" />
+      <node id="lte" label="lte" />
+      <node id="telecom" label="telecom" />
+      <node id="att" label="att" />
+      <node id="tmobile" label="tmobile" />
+      <node id="sprint" label="sprint" />
+      <node id="commercialdrones" label="commercialdrones" />
+      <node id="droneinspections" label="droneinspections" />
+      <node id="drones" label="drones" />
+      <node id="drone" label="drone" />
+      <node id="uav" label="uav" />
+      <node id="uas" label="uas" />
+      <node id="discussion" label="discussion" />
+      <node id="pandemia" label="pandemia" />
+      <node id="iorestocasa" label="iorestocasa" />
+      <node id="chiusuratotale" label="chiusuratotale" />
+      <node id="smartworking" label="smartworking" />
+      <node id="telelavoro" label="telelavoro" />
+      <node id="didatticaadistanza" label="didatticaadistanza" />
+      <node id="italy" label="italy" />
+      <node id="lezzi" label="lezzi" />
+      <node id="crisieconomica" label="crisieconomica" />
+      <node id="ue" label="ue" />
+      <node id="italia" label="italia" />
+      <node id="eurogroupe" label="eurogroupe" />
+      <node id="italexit" label="italexit" />
+      <node id="francia" label="francia" />
+      <node id="adessodibba" label="adessodibba" />
+      <node id="svizzera" label="svizzera" />
+      <node id="oms" label="oms" />
+      <node id="cercasicavieumane" label="cercasicavieumane" />
+      <node id="stop5g" label="stop5g" />
+      <node id="aerei" label="aerei" />
+      <node id="sindaci" label="sindaci" />
+      <node id="comuni" label="comuni" />
+      <node id="meizu" label="meizu" />
+      <node id="android" label="android" />
+      <node id="smartphone" label="smartphone" />
+      <node id="flyme8" label="flyme8" />
+      <node id="meizu17" label="meizu17" />
+      <node id="smartphones" label="smartphones" />
+      <node id="techno" label="techno" />
+      <node id="technews" label="technews" />
+      <node id="fotografia" label="fotografia" />
+      <node id="selfie" label="selfie" />
+      <node id="stopchemtrails" label="stopchemtrails" />
+      <node id="fumigaciones" label="fumigaciones" />
+      <node id="manipulacionclimatica" label="manipulacionclimatica" />
+      <node id="geoingineering" label="geoingineering" />
+      <node id="geoingenieria" label="geoingenieria" />
+      <node id="5gstop" label="5gstop" />
+      <node id="omm" label="omm" />
+      <node id="nwo" label="nwo" />
+      <node id="bioterrorism" label="bioterrorism" />
+      <node id="guerrabattereologica" label="guerrabattereologica" />
+      <node id="oil" label="oil" />
+      <node id="greggio" label="greggio" />
+      <node id="eurasia" label="eurasia" />
+      <node id="russia" label="russia" />
+      <node id="iran" label="iran" />
+      <node id="independencedaynet" label="independencedaynet" />
+      <node id="newworldweb2020" label="newworldweb2020" />
+      <node id="whatmediadontsay" label="whatmediadontsay" />
+      <node id="byoblu24" label="byoblu24" />
+      <node id="ashtar" label="ashtar" />
+      <node id="mes" label="mes" />
+      <node id="vaccino" label="vaccino" />
+      <node id="positivo" label="positivo" />
+      <node id="fottenasega" label="fottenasega" />
+      <node id="daleggere" label="daleggere" />
+      <node id="fakenews" label="fakenews" />
+      <node id="governo" label="governo" />
+      <node id="coronavid19" label="coronavid19" />
+      <node id="covidiot" label="covidiot" />
+      <node id="5gcoronavirus" label="5gcoronavirus" />
+      <node id="covid19italia" label="covid19italia" />
+      <node id="22marzo" label="22marzo" />
+      <node id="danni" label="danni" />
+      <node id="bergamo" label="bergamo" />
+      <node id="gunter" label="gunter" />
+      <node id="pauli" label="pauli" />
+      <node id="chigi" label="chigi" />
+      <node id="conte" label="conte" />
+      <node id="covid" label="covid" />
+      <node id="moratoria" label="moratoria" />
+      <node id="stayathome" label="stayathome" />
+      <node id="restiamoacasa" label="restiamoacasa" />
+      <node id="fakenewsmedia" label="fakenewsmedia" />
+      <node id="sbronzitutti" label="sbronzitutti" />
+      <node id="decretocuraitalia" label="decretocuraitalia" />
+      <node id="sindacati" label="sindacati" />
+      <node id="boccia" label="boccia" />
+      <node id="confindustria" label="confindustria" />
+      <node id="gunterpauli" label="gunterpauli" />
+      <node id="palazzochigi" label="palazzochigi" />
+      <node id="dirittiumani" label="dirittiumani" />
+      <node id="lafleacasatua" label="lafleacasatua" />
+      <node id="coronavirusita" label="coronavirusita" />
+      <node id="miwuhan" label="miwuhan" />
+      <node id="matrix" label="matrix" />
+      <node id="europa" label="europa" />
+      <node id="amodeo" label="amodeo" />
+      <node id="mauriziomartucci" label="mauriziomartucci" />
+      <node id="montanari" label="montanari" />
+      <node id="burioni" label="burioni" />
+      <node id="byoblu" label="byoblu" />
+      <node id="quarantena" label="quarantena" />
+      <node id="cavie" label="cavie" />
+      <node id="roma" label="roma" />
+      <node id="resistenzaitaliana2020" label="resistenzaitaliana2020" />
+      <node id="covid_19italia" label="covid_19italia" />
+      <node id="globalizzazione" label="globalizzazione" />
+      <node id="deglobalizzazione" label="deglobalizzazione" />
+      <node id="epidemia" label="epidemia" />
+      <node id="economia" label="economia" />
+      <node id="pandemie" label="pandemie" />
+      <node id="falsainformazione" label="falsainformazione" />
+      <node id="murdrers" label="murdrers" />
+      <node id="rainò" label="rainò" />
+      <node id="ministerodellasalute" label="ministerodellasalute" />
+      <node id="covidー19" label="covidー19" />
+      <node id="report" label="report" />
+      <node id="trojan" label="trojan" />
+      <node id="elettrificazione" label="elettrificazione" />
+      <node id="sadefenza" label="sadefenza" />
+      <node id="sciechimiche" label="sciechimiche" />
+      <node id="g5" label="g5" />
+      <node id="novax" label="novax" />
+      <node id="cambioclimático" label="cambioclimático" />
+      <node id="coronashow" label="coronashow" />
+      <node id="29marzo" label="29marzo" />
+      <node id="usacina" label="usacina" />
+      <node id="checkout" label="checkout" />
+      <node id="amazon" label="amazon" />
+      <node id="computervision" label="computervision" />
+      <node id="deeplearning" label="deeplearning" />
+      <node id="sensorfusion" label="sensorfusion" />
+      <node id="palermo" label="palermo" />
+      <node id="eu" label="eu" />
+      <node id="networking" label="networking" />
+      <node id="capacità" label="capacità" />
+      <node id="network" label="network" />
+      <node id="ultrabroadband" label="ultrabroadband" />
+      <node id="corona" label="corona" />
+      <node id="febbre" label="febbre" />
+      <node id="demonescimmia" label="demonescimmia" />
+      <node id="sarscov2" label="sarscov2" />
+      <node id="covid2019italia" label="covid2019italia" />
+      <node id="coronavirusitalla" label="coronavirusitalla" />
+      <node id="covid19italy" label="covid19italy" />
+      <node id="complottismo" label="complottismo" />
+      <node id="granbretagna" label="granbretagna" />
+    </nodes>
+    <edges>
+      <edge id="0" source="emergenza" target="5g" weight="1.0" />
+      <edge id="1" source="emergenza" target="coronavirus" weight="1.0" />
+      <edge id="2" source="coronavirus" target="5g" weight="305.0" />
+      <edge id="3" source="coronavirus" target="wuhan" weight="45.0" />
+      <edge id="4" source="coronavirus" target="chine" weight="14.0" />
+      <edge id="5" source="coronavirus" target="china" weight="5.0" />
+      <edge id="6" source="coronavirus" target="covid19" weight="39.0" />
+      <edge id="7" source="coronavirus" target="economiacontagiata" weight="8.0" />
+      <edge id="8" source="coronavirus" target="tecnologia" weight="12.0" />
+      <edge id="9" source="coronavirus" target="germania" weight="8.0" />
+      <edge id="10" source="coronavirus" target="pillolesuldigitale" weight="2.0" />
+      <edge id="11" source="coronavirus" target="19febbraio" weight="2.0" />
+      <edge id="12" source="coronavirus" target="huawei" weight="4.0" />
+      <edge id="13" source="coronavirus" target="barcellona" weight="2.0" />
+      <edge id="14" source="coronavirus" target="coronavirusinformatico" weight="1.0" />
+      <edge id="15" source="coronavirus" target="privacy" weight="1.0" />
+      <edge id="16" source="coronavirus" target="sicurezza" weight="17.0" />
+      <edge id="17" source="coronavirus" target="lavoro" weight="1.0" />
+      <edge id="18" source="coronavirus" target="sicurezzareteinternet" weight="1.0" />
+      <edge id="19" source="coronavirus" target="ia" weight="13.0" />
+      <edge id="20" source="coronavirus" target="covid_19" weight="38.0" />
+      <edge id="21" source="coronavirus" target="smartcity" weight="34.0" />
+      <edge id="22" source="coronavirus" target="coronarovirus" weight="1.0" />
+      <edge id="23" source="coronavirus" target="pd" weight="1.0" />
+      <edge id="24" source="coronavirus" target="wuhancoronavirus" weight="1.0" />
+      <edge id="25" source="coronavirus" target="blackswan" weight="1.0" />
+      <edge id="26" source="coronavirus" target="censorship" weight="1.0" />
+      <edge id="27" source="coronavirus" target="coronavirusitalia" weight="4.0" />
+      <edge id="28" source="coronavirus" target="coronavirusitaly" weight="3.0" />
+      <edge id="29" source="coronavirus" target="diagnosi" weight="1.0" />
+      <edge id="30" source="coronavirus" target="chinatelecom" weight="1.0" />
+      <edge id="31" source="coronavirus" target="zte" weight="1.0" />
+      <edge id="32" source="coronavirus" target="remoto" weight="1.0" />
+      <edge id="33" source="coronavirus" target="viadellaseta" weight="1.0" />
+      <edge id="34" source="coronavirus" target="asiatica" weight="1.0" />
+      <edge id="35" source="coronavirus" target="droni" weight="2.0" />
+      <edge id="36" source="coronavirus" target="bigdata" weight="1.0" />
+      <edge id="37" source="coronavirus" target="robot" weight="2.0" />
+      <edge id="38" source="coronavirus" target="3gpp" weight="2.0" />
+      <edge id="39" source="coronavirus" target="attacco" weight="1.0" />
+      <edge id="40" source="coronavirus" target="psyop" weight="1.0" />
+      <edge id="41" source="coronavirus" target="dazi" weight="10.0" />
+      <edge id="42" source="coronavirus" target="usa" weight="3.0" />
+      <edge id="43" source="coronavirus" target="guerra" weight="1.0" />
+      <edge id="44" source="coronavirus" target="giochimilitari" weight="3.0" />
+      <edge id="45" source="coronavirus" target="fortbragg" weight="1.0" />
+      <edge id="46" source="coronavirus" target="med" weight="1.0" />
+      <edge id="47" source="coronavirus" target="bioterrorismo" weight="1.0" />
+      <edge id="48" source="coronavirus" target="cina" weight="18.0" />
+      <edge id="49" source="coronavirus" target="delta" weight="1.0" />
+      <edge id="50" source="coronavirus" target="madeinitaly" weight="9.0" />
+      <edge id="51" source="coronavirus" target="sars" weight="9.0" />
+      <edge id="52" source="coronavirus" target="çin" weight="1.0" />
+      <edge id="53" source="coronavirus" target="gates" weight="3.0" />
+      <edge id="54" source="coronavirus" target="netflix" weight="3.0" />
+      <edge id="55" source="coronavirus" target="propagandavaccinale" weight="3.0" />
+      <edge id="56" source="coronavirus" target="covid2019" weight="4.0" />
+      <edge id="57" source="coronavirus" target="digiteconomy24" weight="1.0" />
+      <edge id="58" source="coronavirus" target="tlc" weight="1.0" />
+      <edge id="59" source="coronavirus" target="luissbusiness" weight="1.0" />
+      <edge id="60" source="coronavirus" target="telco" weight="1.0" />
+      <edge id="61" source="coronavirus" target="whuan" weight="10.0" />
+      <edge id="62" source="coronavirus" target="vaccini" weight="11.0" />
+      <edge id="63" source="coronavirus" target="autonomousvehicles" weight="1.0" />
+      <edge id="64" source="coronavirus" target="robotics" weight="1.0" />
+      <edge id="65" source="coronavirus" target="iot" weight="1.0" />
+      <edge id="66" source="coronavirus" target="robots" weight="1.0" />
+      <edge id="67" source="coronavirus" target="tech" weight="1.0" />
+      <edge id="68" source="coronavirus" target="driverlesscars" weight="1.0" />
+      <edge id="69" source="coronavirus" target="guidaautonoma" weight="1.0" />
+      <edge id="70" source="coronavirus" target="driverless" weight="1.0" />
+      <edge id="71" source="coronavirus" target="selfdriving" weight="1.0" />
+      <edge id="72" source="coronavirus" target="autonomous" weight="1.0" />
+      <edge id="73" source="coronavirus" target="selfdrivingcars" weight="1.0" />
+      <edge id="74" source="coronavirus" target="startups" weight="1.0" />
+      <edge id="75" source="coronavirus" target="artificialintelligence" weight="1.0" />
+      <edge id="76" source="coronavirus" target="startup" weight="1.0" />
+      <edge id="77" source="coronavirus" target="ai" weight="1.0" />
+      <edge id="78" source="coronavirus" target="mobility" weight="1.0" />
+      <edge id="79" source="coronavirus" target="bigtech" weight="2.0" />
+      <edge id="80" source="coronavirus" target="cybersecurity" weight="16.0" />
+      <edge id="81" source="coronavirus" target="bandalarga" weight="16.0" />
+      <edge id="82" source="coronavirus" target="sicurezzanazionale" weight="16.0" />
+      <edge id="83" source="coronavirus" target="intelligence" weight="16.0" />
+      <edge id="84" source="coronavirus" target="studio" weight="1.0" />
+      <edge id="85" source="coronavirus" target="video" weight="1.0" />
+      <edge id="86" source="coronavirus" target="immunodepressione" weight="1.0" />
+      <edge id="87" source="coronavirus" target="virus" weight="1.0" />
+      <edge id="88" source="coronavirus" target="automazione" weight="1.0" />
+      <edge id="89" source="coronavirus" target="videosorveglianza" weight="1.0" />
+      <edge id="90" source="coronavirus" target="security" weight="1.0" />
+      <edge id="91" source="coronavirus" target="telematica" weight="1.0" />
+      <edge id="92" source="coronavirus" target="fabbriche" weight="1.0" />
+      <edge id="93" source="coronavirus" target="tim" weight="1.0" />
+      <edge id="94" source="coronavirus" target="trasporti" weight="1.0" />
+      <edge id="95" source="coronavirus" target="robotica" weight="3.0" />
+      <edge id="96" source="coronavirus" target="ospedali" weight="1.0" />
+      <edge id="97" source="coronavirus" target="agi" weight="1.0" />
+      <edge id="98" source="coronavirus" target="idiotiallosbando" weight="1.0" />
+      <edge id="99" source="coronavirus" target="tesicomplottiste" weight="1.0" />
+      <edge id="100" source="coronavirus" target="grillo" weight="2.0" />
+      <edge id="101" source="coronavirus" target="umanoidi" weight="2.0" />
+      <edge id="102" source="coronavirus" target="apple" weight="2.0" />
+      <edge id="103" source="coronavirus" target="appleblog" weight="2.0" />
+      <edge id="104" source="coronavirus" target="iphone" weight="2.0" />
+      <edge id="105" source="coronavirus" target="bloomberg" weight="2.0" />
+      <edge id="106" source="coronavirus" target="applenews" weight="2.0" />
+      <edge id="107" source="coronavirus" target="facebook" weight="1.0" />
+      <edge id="108" source="coronavirus" target="iorestoacasa" weight="6.0" />
+      <edge id="109" source="coronavirus" target="twitter" weight="1.0" />
+      <edge id="110" source="coronavirus" target="zonarossa" weight="1.0" />
+      <edge id="111" source="coronavirus" target="4g" weight="2.0" />
+      <edge id="112" source="coronavirus" target="internet" weight="2.0" />
+      <edge id="113" source="coronavirus" target="leolov" weight="2.0" />
+      <edge id="114" source="coronavirus" target="3g" weight="2.0" />
+      <edge id="115" source="coronavirus" target="homeoffice" weight="2.0" />
+      <edge id="116" source="coronavirus" target="vodafone" weight="2.0" />
+      <edge id="117" source="coronavirus" target="madeinchina" weight="1.0" />
+      <edge id="118" source="coronavirus" target="defendereurope20" weight="1.0" />
+      <edge id="119" source="coronavirus" target="coviditaly" weight="1.0" />
+      <edge id="120" source="coronavirus" target="telemedicina" weight="2.0" />
+      <edge id="121" source="coronavirus" target="sanita" weight="2.0" />
+      <edge id="122" source="coronavirus" target="verizon" weight="4.0" />
+      <edge id="123" source="coronavirus" target="ehealth" weight="2.0" />
+      <edge id="124" source="coronavirus" target="rogphone" weight="1.0" />
+      <edge id="125" source="coronavirus" target="smarphone" weight="1.0" />
+      <edge id="126" source="coronavirus" target="googlestadia" weight="1.0" />
+      <edge id="127" source="coronavirus" target="gaming" weight="1.0" />
+      <edge id="128" source="coronavirus" target="snapdragon" weight="3.0" />
+      <edge id="129" source="coronavirus" target="android10" weight="1.0" />
+      <edge id="130" source="coronavirus" target="asus" weight="1.0" />
+      <edge id="131" source="coronavirus" target="game" weight="1.0" />
+      <edge id="132" source="coronavirus" target="iwce2020" weight="2.0" />
+      <edge id="133" source="coronavirus" target="wireless" weight="2.0" />
+      <edge id="134" source="coronavirus" target="uav" weight="2.0" />
+      <edge id="135" source="coronavirus" target="att" weight="2.0" />
+      <edge id="136" source="coronavirus" target="commercialdrones" weight="2.0" />
+      <edge id="137" source="coronavirus" target="tmobile" weight="2.0" />
+      <edge id="138" source="coronavirus" target="sprint" weight="2.0" />
+      <edge id="139" source="coronavirus" target="drones" weight="2.0" />
+      <edge id="140" source="coronavirus" target="drone" weight="2.0" />
+      <edge id="141" source="coronavirus" target="lasvegas" weight="2.0" />
+      <edge id="142" source="coronavirus" target="telecom" weight="2.0" />
+      <edge id="143" source="coronavirus" target="uas" weight="2.0" />
+      <edge id="144" source="coronavirus" target="droneinspections" weight="2.0" />
+      <edge id="145" source="coronavirus" target="lte" weight="2.0" />
+      <edge id="146" source="coronavirus" target="discussion" weight="2.0" />
+      <edge id="147" source="coronavirus" target="iorestocasa" weight="1.0" />
+      <edge id="148" source="coronavirus" target="telelavoro" weight="1.0" />
+      <edge id="149" source="coronavirus" target="didatticaadistanza" weight="1.0" />
+      <edge id="150" source="coronavirus" target="smartworking" weight="3.0" />
+      <edge id="151" source="coronavirus" target="chiusuratotale" weight="1.0" />
+      <edge id="152" source="coronavirus" target="pandemia" weight="17.0" />
+      <edge id="153" source="coronavirus" target="italy" weight="1.0" />
+      <edge id="154" source="coronavirus" target="italexit" weight="6.0" />
+      <edge id="155" source="coronavirus" target="crisieconomica" weight="6.0" />
+      <edge id="156" source="coronavirus" target="italia" weight="8.0" />
+      <edge id="157" source="coronavirus" target="francia" weight="6.0" />
+      <edge id="158" source="coronavirus" target="ue" weight="6.0" />
+      <edge id="159" source="coronavirus" target="eurogroupe" weight="6.0" />
+      <edge id="160" source="coronavirus" target="lezzi" weight="6.0" />
+      <edge id="161" source="coronavirus" target="adessodibba" weight="6.0" />
+      <edge id="162" source="coronavirus" target="svizzera" weight="2.0" />
+      <edge id="163" source="coronavirus" target="oms" weight="2.0" />
+      <edge id="164" source="coronavirus" target="stop5g" weight="4.0" />
+      <edge id="165" source="coronavirus" target="cercasicavieumane" weight="3.0" />
+      <edge id="166" source="coronavirus" target="fotografia" weight="2.0" />
+      <edge id="167" source="coronavirus" target="meizu17" weight="2.0" />
+      <edge id="168" source="coronavirus" target="meizu" weight="2.0" />
+      <edge id="169" source="coronavirus" target="smartphone" weight="2.0" />
+      <edge id="170" source="coronavirus" target="smartphones" weight="2.0" />
+      <edge id="171" source="coronavirus" target="android" weight="2.0" />
+      <edge id="172" source="coronavirus" target="technews" weight="2.0" />
+      <edge id="173" source="coronavirus" target="techno" weight="2.0" />
+      <edge id="174" source="coronavirus" target="flyme8" weight="2.0" />
+      <edge id="175" source="coronavirus" target="selfie" weight="2.0" />
+      <edge id="176" source="coronavirus" target="byoblu24" weight="1.0" />
+      <edge id="177" source="coronavirus" target="ashtar" weight="3.0" />
+      <edge id="178" source="coronavirus" target="vaccino" weight="1.0" />
+      <edge id="179" source="coronavirus" target="mes" weight="1.0" />
+      <edge id="180" source="coronavirus" target="positivo" weight="1.0" />
+      <edge id="181" source="coronavirus" target="fottenasega" weight="1.0" />
+      <edge id="182" source="coronavirus" target="22marzo" weight="1.0" />
+      <edge id="183" source="coronavirus" target="covid19italia" weight="2.0" />
+      <edge id="184" source="coronavirus" target="governo" weight="6.0" />
+      <edge id="185" source="coronavirus" target="5gcoronavirus" weight="3.0" />
+      <edge id="186" source="coronavirus" target="covidiot" weight="1.0" />
+      <edge id="187" source="coronavirus" target="coronavid19" weight="1.0" />
+      <edge id="188" source="coronavirus" target="danni" weight="2.0" />
+      <edge id="189" source="coronavirus" target="bergamo" weight="1.0" />
+      <edge id="190" source="coronavirus" target="restiamoacasa" weight="2.0" />
+      <edge id="191" source="coronavirus" target="stayathome" weight="2.0" />
+      <edge id="192" source="coronavirus" target="sbronzitutti" weight="4.0" />
+      <edge id="193" source="coronavirus" target="fakenews" weight="4.0" />
+      <edge id="194" source="coronavirus" target="sindacati" weight="15.0" />
+      <edge id="195" source="coronavirus" target="boccia" weight="15.0" />
+      <edge id="196" source="coronavirus" target="gunterpauli" weight="16.0" />
+      <edge id="197" source="coronavirus" target="palazzochigi" weight="15.0" />
+      <edge id="198" source="coronavirus" target="confindustria" weight="15.0" />
+      <edge id="199" source="coronavirus" target="decretocuraitalia" weight="15.0" />
+      <edge id="200" source="coronavirus" target="dirittiumani" weight="3.0" />
+      <edge id="201" source="coronavirus" target="lafleacasatua" weight="3.0" />
+      <edge id="202" source="coronavirus" target="europa" weight="3.0" />
+      <edge id="203" source="coronavirus" target="amodeo" weight="3.0" />
+      <edge id="204" source="coronavirus" target="burioni" weight="1.0" />
+      <edge id="205" source="coronavirus" target="montanari" weight="1.0" />
+      <edge id="206" source="coronavirus" target="byoblu" weight="1.0" />
+      <edge id="207" source="coronavirus" target="quarantena" weight="1.0" />
+      <edge id="208" source="coronavirus" target="cavie" weight="1.0" />
+      <edge id="209" source="coronavirus" target="resistenzaitaliana2020" weight="1.0" />
+      <edge id="210" source="coronavirus" target="roma" weight="1.0" />
+      <edge id="211" source="coronavirus" target="covid_19italia" weight="14.0" />
+      <edge id="212" source="coronavirus" target="deglobalizzazione" weight="2.0" />
+      <edge id="213" source="coronavirus" target="economia" weight="2.0" />
+      <edge id="214" source="coronavirus" target="globalizzazione" weight="2.0" />
+      <edge id="215" source="coronavirus" target="epidemia" weight="2.0" />
+      <edge id="216" source="coronavirus" target="rainò" weight="1.0" />
+      <edge id="217" source="coronavirus" target="covidー19" weight="2.0" />
+      <edge id="218" source="coronavirus" target="elettrificazione" weight="1.0" />
+      <edge id="219" source="coronavirus" target="conte" weight="1.0" />
+      <edge id="220" source="coronavirus" target="sciechimiche" weight="1.0" />
+      <edge id="221" source="coronavirus" target="sadefenza" weight="1.0" />
+      <edge id="222" source="coronavirus" target="g5" weight="1.0" />
+      <edge id="223" source="coronavirus" target="novax" weight="2.0" />
+      <edge id="224" source="coronavirus" target="cambioclimático" weight="1.0" />
+      <edge id="225" source="coronavirus" target="coronashow" weight="3.0" />
+      <edge id="226" source="coronavirus" target="29marzo" weight="2.0" />
+      <edge id="227" source="coronavirus" target="usacina" weight="1.0" />
+      <edge id="228" source="coronavirus" target="coronavirusitalla" weight="1.0" />
+      <edge id="229" source="coronavirus" target="sarscov2" weight="1.0" />
+      <edge id="230" source="coronavirus" target="covid19italy" weight="1.0" />
+      <edge id="231" source="coronavirus" target="covid2019italia" weight="1.0" />
+      <edge id="232" source="coronavirus" target="demonescimmia" weight="1.0" />
+      <edge id="233" source="coronavirus" target="complottismo" weight="1.0" />
+      <edge id="234" source="coronavirus" target="granbretagna" weight="1.0" />
+      <edge id="235" source="5g" target="wuhan" weight="45.0" />
+      <edge id="236" source="5g" target="chine" weight="14.0" />
+      <edge id="237" source="5g" target="china" weight="5.0" />
+      <edge id="238" source="5g" target="covid19" weight="126.0" />
+      <edge id="239" source="5g" target="economiacontagiata" weight="8.0" />
+      <edge id="240" source="5g" target="tecnologia" weight="23.0" />
+      <edge id="241" source="5g" target="germania" weight="8.0" />
+      <edge id="242" source="5g" target="pillolesuldigitale" weight="2.0" />
+      <edge id="243" source="5g" target="19febbraio" weight="2.0" />
+      <edge id="244" source="5g" target="huawei" weight="4.0" />
+      <edge id="245" source="5g" target="barcellona" weight="2.0" />
+      <edge id="246" source="5g" target="coronavirusinformatico" weight="1.0" />
+      <edge id="247" source="5g" target="privacy" weight="8.0" />
+      <edge id="248" source="5g" target="sicurezza" weight="17.0" />
+      <edge id="249" source="5g" target="lavoro" weight="1.0" />
+      <edge id="250" source="5g" target="sicurezzareteinternet" weight="1.0" />
+      <edge id="251" source="5g" target="ia" weight="13.0" />
+      <edge id="252" source="5g" target="covid_19" weight="38.0" />
+      <edge id="253" source="5g" target="smartcity" weight="34.0" />
+      <edge id="254" source="5g" target="coronarovirus" weight="1.0" />
+      <edge id="255" source="5g" target="pd" weight="1.0" />
+      <edge id="256" source="5g" target="wuhancoronavirus" weight="1.0" />
+      <edge id="257" source="5g" target="blackswan" weight="1.0" />
+      <edge id="258" source="5g" target="censorship" weight="1.0" />
+      <edge id="259" source="5g" target="coronavirusitalia" weight="5.0" />
+      <edge id="260" source="5g" target="coronavirusitaly" weight="3.0" />
+      <edge id="261" source="5g" target="diagnosi" weight="1.0" />
+      <edge id="262" source="5g" target="chinatelecom" weight="1.0" />
+      <edge id="263" source="5g" target="zte" weight="1.0" />
+      <edge id="264" source="5g" target="remoto" weight="1.0" />
+      <edge id="265" source="5g" target="viadellaseta" weight="1.0" />
+      <edge id="266" source="5g" target="asiatica" weight="1.0" />
+      <edge id="267" source="5g" target="droni" weight="3.0" />
+      <edge id="268" source="5g" target="bigdata" weight="1.0" />
+      <edge id="269" source="5g" target="robot" weight="2.0" />
+      <edge id="270" source="5g" target="3gpp" weight="2.0" />
+      <edge id="271" source="5g" target="assange" weight="1.0" />
+      <edge id="272" source="5g" target="rifiuti" weight="1.0" />
+      <edge id="273" source="5g" target="usa" weight="4.0" />
+      <edge id="274" source="5g" target="turchia" weight="1.0" />
+      <edge id="275" source="5g" target="paesipoveri" weight="1.0" />
+      <edge id="276" source="5g" target="attacco" weight="1.0" />
+      <edge id="277" source="5g" target="psyop" weight="1.0" />
+      <edge id="278" source="5g" target="dazi" weight="10.0" />
+      <edge id="279" source="5g" target="guerra" weight="1.0" />
+      <edge id="280" source="5g" target="giochimilitari" weight="3.0" />
+      <edge id="281" source="5g" target="fortbragg" weight="1.0" />
+      <edge id="282" source="5g" target="med" weight="1.0" />
+      <edge id="283" source="5g" target="bioterrorismo" weight="1.0" />
+      <edge id="284" source="5g" target="cina" weight="26.0" />
+      <edge id="285" source="5g" target="delta" weight="1.0" />
+      <edge id="286" source="5g" target="realtime" weight="6.0" />
+      <edge id="287" source="5g" target="madeinitaly" weight="9.0" />
+      <edge id="288" source="5g" target="sars" weight="9.0" />
+      <edge id="289" source="5g" target="çin" weight="1.0" />
+      <edge id="290" source="5g" target="gates" weight="3.0" />
+      <edge id="291" source="5g" target="netflix" weight="3.0" />
+      <edge id="292" source="5g" target="propagandavaccinale" weight="3.0" />
+      <edge id="293" source="5g" target="covid2019" weight="4.0" />
+      <edge id="294" source="5g" target="digiteconomy24" weight="1.0" />
+      <edge id="295" source="5g" target="tlc" weight="2.0" />
+      <edge id="296" source="5g" target="luissbusiness" weight="1.0" />
+      <edge id="297" source="5g" target="telco" weight="2.0" />
+      <edge id="298" source="5g" target="whuan" weight="10.0" />
+      <edge id="299" source="5g" target="vaccini" weight="16.0" />
+      <edge id="300" source="5g" target="autonomousvehicles" weight="1.0" />
+      <edge id="301" source="5g" target="robotics" weight="1.0" />
+      <edge id="302" source="5g" target="iot" weight="2.0" />
+      <edge id="303" source="5g" target="robots" weight="1.0" />
+      <edge id="304" source="5g" target="tech" weight="1.0" />
+      <edge id="305" source="5g" target="driverlesscars" weight="1.0" />
+      <edge id="306" source="5g" target="guidaautonoma" weight="1.0" />
+      <edge id="307" source="5g" target="driverless" weight="1.0" />
+      <edge id="308" source="5g" target="selfdriving" weight="1.0" />
+      <edge id="309" source="5g" target="autonomous" weight="1.0" />
+      <edge id="310" source="5g" target="selfdrivingcars" weight="1.0" />
+      <edge id="311" source="5g" target="startups" weight="1.0" />
+      <edge id="312" source="5g" target="artificialintelligence" weight="1.0" />
+      <edge id="313" source="5g" target="startup" weight="1.0" />
+      <edge id="314" source="5g" target="ai" weight="1.0" />
+      <edge id="315" source="5g" target="mobility" weight="1.0" />
+      <edge id="316" source="5g" target="bigtech" weight="2.0" />
+      <edge id="317" source="5g" target="armabiologica" weight="5.0" />
+      <edge id="318" source="5g" target="sistemaimmunitario" weight="5.0" />
+      <edge id="319" source="5g" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="320" source="5g" target="cia" weight="5.0" />
+      <edge id="321" source="5g" target="brevetti" weight="5.0" />
+      <edge id="322" source="5g" target="shanghai" weight="1.0" />
+      <edge id="323" source="5g" target="cybersecurity" weight="17.0" />
+      <edge id="324" source="5g" target="bandalarga" weight="16.0" />
+      <edge id="325" source="5g" target="sicurezzanazionale" weight="16.0" />
+      <edge id="326" source="5g" target="intelligence" weight="16.0" />
+      <edge id="327" source="5g" target="studio" weight="1.0" />
+      <edge id="328" source="5g" target="video" weight="1.0" />
+      <edge id="329" source="5g" target="immunodepressione" weight="1.0" />
+      <edge id="330" source="5g" target="virus" weight="2.0" />
+      <edge id="331" source="5g" target="automazione" weight="1.0" />
+      <edge id="332" source="5g" target="videosorveglianza" weight="1.0" />
+      <edge id="333" source="5g" target="security" weight="1.0" />
+      <edge id="334" source="5g" target="telematica" weight="1.0" />
+      <edge id="335" source="5g" target="fabbriche" weight="1.0" />
+      <edge id="336" source="5g" target="tim" weight="1.0" />
+      <edge id="337" source="5g" target="trasporti" weight="1.0" />
+      <edge id="338" source="5g" target="robotica" weight="3.0" />
+      <edge id="339" source="5g" target="ospedali" weight="1.0" />
+      <edge id="340" source="5g" target="agi" weight="1.0" />
+      <edge id="341" source="5g" target="idiotiallosbando" weight="1.0" />
+      <edge id="342" source="5g" target="ar" weight="30.0" />
+      <edge id="343" source="5g" target="tesicomplottiste" weight="1.0" />
+      <edge id="344" source="5g" target="grillo" weight="2.0" />
+      <edge id="345" source="5g" target="umanoidi" weight="2.0" />
+      <edge id="346" source="5g" target="apple" weight="2.0" />
+      <edge id="347" source="5g" target="appleblog" weight="2.0" />
+      <edge id="348" source="5g" target="iphone" weight="2.0" />
+      <edge id="349" source="5g" target="bloomberg" weight="2.0" />
+      <edge id="350" source="5g" target="applenews" weight="2.0" />
+      <edge id="351" source="5g" target="facebook" weight="1.0" />
+      <edge id="352" source="5g" target="iorestoacasa" weight="6.0" />
+      <edge id="353" source="5g" target="twitter" weight="1.0" />
+      <edge id="354" source="5g" target="zonarossa" weight="1.0" />
+      <edge id="355" source="5g" target="4g" weight="2.0" />
+      <edge id="356" source="5g" target="internet" weight="2.0" />
+      <edge id="357" source="5g" target="leolov" weight="2.0" />
+      <edge id="358" source="5g" target="3g" weight="2.0" />
+      <edge id="359" source="5g" target="homeoffice" weight="2.0" />
+      <edge id="360" source="5g" target="vodafone" weight="3.0" />
+      <edge id="361" source="5g" target="madeinchina" weight="1.0" />
+      <edge id="362" source="5g" target="defendereurope20" weight="1.0" />
+      <edge id="363" source="5g" target="coviditaly" weight="1.0" />
+      <edge id="364" source="5g" target="telemedicina" weight="2.0" />
+      <edge id="365" source="5g" target="sanita" weight="2.0" />
+      <edge id="366" source="5g" target="verizon" weight="4.0" />
+      <edge id="367" source="5g" target="ehealth" weight="2.0" />
+      <edge id="368" source="5g" target="rogphone" weight="1.0" />
+      <edge id="369" source="5g" target="smarphone" weight="1.0" />
+      <edge id="370" source="5g" target="googlestadia" weight="1.0" />
+      <edge id="371" source="5g" target="gaming" weight="1.0" />
+      <edge id="372" source="5g" target="snapdragon" weight="3.0" />
+      <edge id="373" source="5g" target="android10" weight="1.0" />
+      <edge id="374" source="5g" target="asus" weight="1.0" />
+      <edge id="375" source="5g" target="game" weight="1.0" />
+      <edge id="376" source="5g" target="iwce2020" weight="2.0" />
+      <edge id="377" source="5g" target="wireless" weight="2.0" />
+      <edge id="378" source="5g" target="uav" weight="2.0" />
+      <edge id="379" source="5g" target="att" weight="2.0" />
+      <edge id="380" source="5g" target="commercialdrones" weight="2.0" />
+      <edge id="381" source="5g" target="tmobile" weight="2.0" />
+      <edge id="382" source="5g" target="sprint" weight="2.0" />
+      <edge id="383" source="5g" target="drones" weight="2.0" />
+      <edge id="384" source="5g" target="drone" weight="2.0" />
+      <edge id="385" source="5g" target="lasvegas" weight="2.0" />
+      <edge id="386" source="5g" target="telecom" weight="2.0" />
+      <edge id="387" source="5g" target="uas" weight="2.0" />
+      <edge id="388" source="5g" target="droneinspections" weight="2.0" />
+      <edge id="389" source="5g" target="lte" weight="2.0" />
+      <edge id="390" source="5g" target="discussion" weight="2.0" />
+      <edge id="391" source="5g" target="iorestocasa" weight="1.0" />
+      <edge id="392" source="5g" target="telelavoro" weight="1.0" />
+      <edge id="393" source="5g" target="didatticaadistanza" weight="1.0" />
+      <edge id="394" source="5g" target="smartworking" weight="3.0" />
+      <edge id="395" source="5g" target="chiusuratotale" weight="1.0" />
+      <edge id="396" source="5g" target="pandemia" weight="18.0" />
+      <edge id="397" source="5g" target="italy" weight="1.0" />
+      <edge id="398" source="5g" target="italexit" weight="6.0" />
+      <edge id="399" source="5g" target="crisieconomica" weight="6.0" />
+      <edge id="400" source="5g" target="italia" weight="11.0" />
+      <edge id="401" source="5g" target="francia" weight="6.0" />
+      <edge id="402" source="5g" target="ue" weight="6.0" />
+      <edge id="403" source="5g" target="eurogroupe" weight="6.0" />
+      <edge id="404" source="5g" target="lezzi" weight="6.0" />
+      <edge id="405" source="5g" target="adessodibba" weight="6.0" />
+      <edge id="406" source="5g" target="svizzera" weight="2.0" />
+      <edge id="407" source="5g" target="oms" weight="2.0" />
+      <edge id="408" source="5g" target="stop5g" weight="4.0" />
+      <edge id="409" source="5g" target="cercasicavieumane" weight="3.0" />
+      <edge id="410" source="5g" target="sindaci" weight="1.0" />
+      <edge id="411" source="5g" target="comuni" weight="1.0" />
+      <edge id="412" source="5g" target="aerei" weight="1.0" />
+      <edge id="413" source="5g" target="fotografia" weight="2.0" />
+      <edge id="414" source="5g" target="meizu17" weight="2.0" />
+      <edge id="415" source="5g" target="meizu" weight="2.0" />
+      <edge id="416" source="5g" target="smartphone" weight="2.0" />
+      <edge id="417" source="5g" target="smartphones" weight="2.0" />
+      <edge id="418" source="5g" target="android" weight="2.0" />
+      <edge id="419" source="5g" target="technews" weight="2.0" />
+      <edge id="420" source="5g" target="techno" weight="2.0" />
+      <edge id="421" source="5g" target="flyme8" weight="2.0" />
+      <edge id="422" source="5g" target="selfie" weight="2.0" />
+      <edge id="423" source="5g" target="geoingineering" weight="4.0" />
+      <edge id="424" source="5g" target="geoingenieria" weight="4.0" />
+      <edge id="425" source="5g" target="omm" weight="4.0" />
+      <edge id="426" source="5g" target="manipulacionclimatica" weight="4.0" />
+      <edge id="427" source="5g" target="nwo" weight="4.0" />
+      <edge id="428" source="5g" target="fumigaciones" weight="2.0" />
+      <edge id="429" source="5g" target="stopchemtrails" weight="4.0" />
+      <edge id="430" source="5g" target="5gstop" weight="4.0" />
+      <edge id="431" source="5g" target="iran" weight="1.0" />
+      <edge id="432" source="5g" target="eurasia" weight="1.0" />
+      <edge id="433" source="5g" target="guerrabattereologica" weight="1.0" />
+      <edge id="434" source="5g" target="bioterrorism" weight="1.0" />
+      <edge id="435" source="5g" target="greggio" weight="1.0" />
+      <edge id="436" source="5g" target="russia" weight="1.0" />
+      <edge id="437" source="5g" target="oil" weight="1.0" />
+      <edge id="438" source="5g" target="newworldweb2020" weight="1.0" />
+      <edge id="439" source="5g" target="independencedaynet" weight="1.0" />
+      <edge id="440" source="5g" target="whatmediadontsay" weight="1.0" />
+      <edge id="441" source="5g" target="byoblu24" weight="1.0" />
+      <edge id="442" source="5g" target="ashtar" weight="3.0" />
+      <edge id="443" source="5g" target="vaccino" weight="1.0" />
+      <edge id="444" source="5g" target="mes" weight="1.0" />
+      <edge id="445" source="5g" target="positivo" weight="1.0" />
+      <edge id="446" source="5g" target="fottenasega" weight="1.0" />
+      <edge id="447" source="5g" target="daleggere" weight="5.0" />
+      <edge id="448" source="5g" target="fakenews" weight="21.0" />
+      <edge id="449" source="5g" target="22marzo" weight="1.0" />
+      <edge id="450" source="5g" target="covid19italia" weight="2.0" />
+      <edge id="451" source="5g" target="governo" weight="6.0" />
+      <edge id="452" source="5g" target="5gcoronavirus" weight="3.0" />
+      <edge id="453" source="5g" target="covidiot" weight="1.0" />
+      <edge id="454" source="5g" target="coronavid19" weight="1.0" />
+      <edge id="455" source="5g" target="danni" weight="2.0" />
+      <edge id="456" source="5g" target="bergamo" weight="1.0" />
+      <edge id="457" source="5g" target="covid" weight="14.0" />
+      <edge id="458" source="5g" target="moratoria" weight="1.0" />
+      <edge id="459" source="5g" target="pauli" weight="1.0" />
+      <edge id="460" source="5g" target="chigi" weight="1.0" />
+      <edge id="461" source="5g" target="gunter" weight="1.0" />
+      <edge id="462" source="5g" target="conte" weight="2.0" />
+      <edge id="463" source="5g" target="restiamoacasa" weight="2.0" />
+      <edge id="464" source="5g" target="stayathome" weight="2.0" />
+      <edge id="465" source="5g" target="fakenewsmedia" weight="1.0" />
+      <edge id="466" source="5g" target="sbronzitutti" weight="4.0" />
+      <edge id="467" source="5g" target="sindacati" weight="15.0" />
+      <edge id="468" source="5g" target="boccia" weight="15.0" />
+      <edge id="469" source="5g" target="gunterpauli" weight="16.0" />
+      <edge id="470" source="5g" target="palazzochigi" weight="15.0" />
+      <edge id="471" source="5g" target="confindustria" weight="15.0" />
+      <edge id="472" source="5g" target="decretocuraitalia" weight="15.0" />
+      <edge id="473" source="5g" target="dirittiumani" weight="3.0" />
+      <edge id="474" source="5g" target="lafleacasatua" weight="3.0" />
+      <edge id="475" source="5g" target="coronavirusita" weight="1.0" />
+      <edge id="476" source="5g" target="miwuhan" weight="1.0" />
+      <edge id="477" source="5g" target="matrix" weight="1.0" />
+      <edge id="478" source="5g" target="europa" weight="3.0" />
+      <edge id="479" source="5g" target="amodeo" weight="3.0" />
+      <edge id="480" source="5g" target="mauriziomartucci" weight="1.0" />
+      <edge id="481" source="5g" target="burioni" weight="1.0" />
+      <edge id="482" source="5g" target="montanari" weight="1.0" />
+      <edge id="483" source="5g" target="byoblu" weight="1.0" />
+      <edge id="484" source="5g" target="quarantena" weight="3.0" />
+      <edge id="485" source="5g" target="cavie" weight="1.0" />
+      <edge id="486" source="5g" target="resistenzaitaliana2020" weight="1.0" />
+      <edge id="487" source="5g" target="roma" weight="1.0" />
+      <edge id="488" source="5g" target="covid_19italia" weight="14.0" />
+      <edge id="489" source="5g" target="deglobalizzazione" weight="2.0" />
+      <edge id="490" source="5g" target="economia" weight="2.0" />
+      <edge id="491" source="5g" target="globalizzazione" weight="2.0" />
+      <edge id="492" source="5g" target="epidemia" weight="2.0" />
+      <edge id="493" source="5g" target="pandemie" weight="1.0" />
+      <edge id="494" source="5g" target="falsainformazione" weight="1.0" />
+      <edge id="495" source="5g" target="murdrers" weight="1.0" />
+      <edge id="496" source="5g" target="rainò" weight="1.0" />
+      <edge id="497" source="5g" target="ministerodellasalute" weight="2.0" />
+      <edge id="498" source="5g" target="covidー19" weight="2.0" />
+      <edge id="499" source="5g" target="trojan" weight="7.0" />
+      <edge id="500" source="5g" target="report" weight="7.0" />
+      <edge id="501" source="5g" target="elettrificazione" weight="1.0" />
+      <edge id="502" source="5g" target="sciechimiche" weight="1.0" />
+      <edge id="503" source="5g" target="sadefenza" weight="1.0" />
+      <edge id="504" source="5g" target="g5" weight="1.0" />
+      <edge id="505" source="5g" target="novax" weight="2.0" />
+      <edge id="506" source="5g" target="cambioclimático" weight="1.0" />
+      <edge id="507" source="5g" target="coronashow" weight="3.0" />
+      <edge id="508" source="5g" target="29marzo" weight="2.0" />
+      <edge id="509" source="5g" target="usacina" weight="1.0" />
+      <edge id="510" source="5g" target="deeplearning" weight="1.0" />
+      <edge id="511" source="5g" target="checkout" weight="1.0" />
+      <edge id="512" source="5g" target="sensorfusion" weight="1.0" />
+      <edge id="513" source="5g" target="palermo" weight="1.0" />
+      <edge id="514" source="5g" target="amazon" weight="1.0" />
+      <edge id="515" source="5g" target="computervision" weight="1.0" />
+      <edge id="516" source="5g" target="eu" weight="1.0" />
+      <edge id="517" source="5g" target="capacità" weight="1.0" />
+      <edge id="518" source="5g" target="ultrabroadband" weight="1.0" />
+      <edge id="519" source="5g" target="network" weight="1.0" />
+      <edge id="520" source="5g" target="networking" weight="1.0" />
+      <edge id="521" source="5g" target="corona" weight="1.0" />
+      <edge id="522" source="5g" target="febbre" weight="1.0" />
+      <edge id="523" source="5g" target="coronavirusitalla" weight="1.0" />
+      <edge id="524" source="5g" target="sarscov2" weight="1.0" />
+      <edge id="525" source="5g" target="covid19italy" weight="1.0" />
+      <edge id="526" source="5g" target="covid2019italia" weight="1.0" />
+      <edge id="527" source="5g" target="demonescimmia" weight="1.0" />
+      <edge id="528" source="5g" target="complottismo" weight="1.0" />
+      <edge id="529" source="5g" target="granbretagna" weight="1.0" />
+      <edge id="530" source="chine" target="wuhan" weight="3.0" />
+      <edge id="531" source="chine" target="china" weight="3.0" />
+      <edge id="532" source="chine" target="covid19" weight="14.0" />
+      <edge id="533" source="chine" target="ia" weight="11.0" />
+      <edge id="534" source="covid19" target="wuhan" weight="3.0" />
+      <edge id="535" source="covid19" target="china" weight="3.0" />
+      <edge id="536" source="covid19" target="ia" weight="11.0" />
+      <edge id="537" source="covid19" target="assange" weight="1.0" />
+      <edge id="538" source="covid19" target="rifiuti" weight="1.0" />
+      <edge id="539" source="covid19" target="usa" weight="1.0" />
+      <edge id="540" source="covid19" target="turchia" weight="1.0" />
+      <edge id="541" source="covid19" target="paesipoveri" weight="1.0" />
+      <edge id="542" source="covid19" target="realtime" weight="6.0" />
+      <edge id="543" source="covid19" target="cina" weight="11.0" />
+      <edge id="544" source="covid19" target="çin" weight="1.0" />
+      <edge id="545" source="covid19" target="armabiologica" weight="5.0" />
+      <edge id="546" source="covid19" target="sistemaimmunitario" weight="5.0" />
+      <edge id="547" source="covid19" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="548" source="covid19" target="cia" weight="5.0" />
+      <edge id="549" source="covid19" target="brevetti" weight="5.0" />
+      <edge id="550" source="covid19" target="vaccini" weight="5.0" />
+      <edge id="551" source="covid19" target="shanghai" weight="1.0" />
+      <edge id="552" source="covid19" target="ar" weight="30.0" />
+      <edge id="553" source="covid19" target="coviditaly" weight="1.0" />
+      <edge id="554" source="covid19" target="coronavirusitalia" weight="2.0" />
+      <edge id="555" source="covid19" target="iwce2020" weight="2.0" />
+      <edge id="556" source="covid19" target="wireless" weight="2.0" />
+      <edge id="557" source="covid19" target="uav" weight="2.0" />
+      <edge id="558" source="covid19" target="att" weight="2.0" />
+      <edge id="559" source="covid19" target="commercialdrones" weight="2.0" />
+      <edge id="560" source="covid19" target="tmobile" weight="2.0" />
+      <edge id="561" source="covid19" target="sprint" weight="2.0" />
+      <edge id="562" source="covid19" target="drones" weight="2.0" />
+      <edge id="563" source="covid19" target="drone" weight="2.0" />
+      <edge id="564" source="covid19" target="lasvegas" weight="2.0" />
+      <edge id="565" source="covid19" target="verizon" weight="2.0" />
+      <edge id="566" source="covid19" target="telecom" weight="2.0" />
+      <edge id="567" source="covid19" target="uas" weight="2.0" />
+      <edge id="568" source="covid19" target="droneinspections" weight="2.0" />
+      <edge id="569" source="covid19" target="lte" weight="2.0" />
+      <edge id="570" source="covid19" target="discussion" weight="2.0" />
+      <edge id="571" source="covid19" target="iorestocasa" weight="1.0" />
+      <edge id="572" source="covid19" target="telelavoro" weight="1.0" />
+      <edge id="573" source="covid19" target="didatticaadistanza" weight="1.0" />
+      <edge id="574" source="covid19" target="smartworking" weight="1.0" />
+      <edge id="575" source="covid19" target="chiusuratotale" weight="1.0" />
+      <edge id="576" source="covid19" target="pandemia" weight="2.0" />
+      <edge id="577" source="covid19" target="sindaci" weight="1.0" />
+      <edge id="578" source="covid19" target="comuni" weight="1.0" />
+      <edge id="579" source="covid19" target="aerei" weight="1.0" />
+      <edge id="580" source="covid19" target="geoingineering" weight="4.0" />
+      <edge id="581" source="covid19" target="geoingenieria" weight="4.0" />
+      <edge id="582" source="covid19" target="omm" weight="4.0" />
+      <edge id="583" source="covid19" target="manipulacionclimatica" weight="4.0" />
+      <edge id="584" source="covid19" target="nwo" weight="4.0" />
+      <edge id="585" source="covid19" target="fumigaciones" weight="2.0" />
+      <edge id="586" source="covid19" target="stopchemtrails" weight="4.0" />
+      <edge id="587" source="covid19" target="5gstop" weight="4.0" />
+      <edge id="588" source="covid19" target="iran" weight="1.0" />
+      <edge id="589" source="covid19" target="eurasia" weight="1.0" />
+      <edge id="590" source="covid19" target="italia" weight="3.0" />
+      <edge id="591" source="covid19" target="guerrabattereologica" weight="1.0" />
+      <edge id="592" source="covid19" target="bioterrorism" weight="1.0" />
+      <edge id="593" source="covid19" target="greggio" weight="1.0" />
+      <edge id="594" source="covid19" target="russia" weight="1.0" />
+      <edge id="595" source="covid19" target="oil" weight="1.0" />
+      <edge id="596" source="covid19" target="newworldweb2020" weight="1.0" />
+      <edge id="597" source="covid19" target="independencedaynet" weight="1.0" />
+      <edge id="598" source="covid19" target="whatmediadontsay" weight="1.0" />
+      <edge id="599" source="covid19" target="byoblu24" weight="1.0" />
+      <edge id="600" source="covid19" target="daleggere" weight="5.0" />
+      <edge id="601" source="covid19" target="fakenews" weight="17.0" />
+      <edge id="602" source="covid19" target="22marzo" weight="1.0" />
+      <edge id="603" source="covid19" target="covid19italia" weight="1.0" />
+      <edge id="604" source="covid19" target="governo" weight="1.0" />
+      <edge id="605" source="covid19" target="5gcoronavirus" weight="1.0" />
+      <edge id="606" source="covid19" target="covidiot" weight="1.0" />
+      <edge id="607" source="covid19" target="coronavid19" weight="1.0" />
+      <edge id="608" source="covid19" target="tecnologia" weight="11.0" />
+      <edge id="609" source="covid19" target="coronavirusita" weight="1.0" />
+      <edge id="610" source="covid19" target="miwuhan" weight="1.0" />
+      <edge id="611" source="covid19" target="matrix" weight="1.0" />
+      <edge id="612" source="covid19" target="europa" weight="3.0" />
+      <edge id="613" source="covid19" target="amodeo" weight="3.0" />
+      <edge id="614" source="covid19" target="mauriziomartucci" weight="1.0" />
+      <edge id="615" source="covid19" target="pandemie" weight="1.0" />
+      <edge id="616" source="covid19" target="virus" weight="1.0" />
+      <edge id="617" source="covid19" target="falsainformazione" weight="1.0" />
+      <edge id="618" source="covid19" target="murdrers" weight="1.0" />
+      <edge id="619" source="covid19" target="quarantena" weight="2.0" />
+      <edge id="620" source="covid19" target="ministerodellasalute" weight="2.0" />
+      <edge id="621" source="covid19" target="privacy" weight="7.0" />
+      <edge id="622" source="covid19" target="trojan" weight="7.0" />
+      <edge id="623" source="covid19" target="report" weight="7.0" />
+      <edge id="624" source="covid19" target="elettrificazione" weight="1.0" />
+      <edge id="625" source="covid19" target="cambioclimático" weight="1.0" />
+      <edge id="626" source="covid19" target="eu" weight="1.0" />
+      <edge id="627" source="covid19" target="capacità" weight="1.0" />
+      <edge id="628" source="covid19" target="ultrabroadband" weight="1.0" />
+      <edge id="629" source="covid19" target="telco" weight="1.0" />
+      <edge id="630" source="covid19" target="network" weight="1.0" />
+      <edge id="631" source="covid19" target="networking" weight="1.0" />
+      <edge id="632" source="covid19" target="corona" weight="1.0" />
+      <edge id="633" source="covid19" target="vodafone" weight="1.0" />
+      <edge id="634" source="covid19" target="droni" weight="1.0" />
+      <edge id="635" source="covid19" target="febbre" weight="1.0" />
+      <edge id="636" source="covid19" target="coronavirusitalla" weight="1.0" />
+      <edge id="637" source="covid19" target="sarscov2" weight="1.0" />
+      <edge id="638" source="covid19" target="covid19italy" weight="1.0" />
+      <edge id="639" source="covid19" target="covid2019italia" weight="1.0" />
+      <edge id="640" source="covid19" target="stop5g" weight="1.0" />
+      <edge id="641" source="covid19" target="covidー19" weight="1.0" />
+      <edge id="642" source="covid19" target="demonescimmia" weight="1.0" />
+      <edge id="643" source="wuhan" target="china" weight="3.0" />
+      <edge id="644" source="wuhan" target="covid_19" weight="33.0" />
+      <edge id="645" source="wuhan" target="smartcity" weight="33.0" />
+      <edge id="646" source="wuhan" target="attacco" weight="1.0" />
+      <edge id="647" source="wuhan" target="psyop" weight="1.0" />
+      <edge id="648" source="wuhan" target="dazi" weight="1.0" />
+      <edge id="649" source="wuhan" target="usa" weight="1.0" />
+      <edge id="650" source="wuhan" target="guerra" weight="1.0" />
+      <edge id="651" source="wuhan" target="giochimilitari" weight="3.0" />
+      <edge id="652" source="wuhan" target="fortbragg" weight="1.0" />
+      <edge id="653" source="wuhan" target="med" weight="1.0" />
+      <edge id="654" source="wuhan" target="bioterrorismo" weight="1.0" />
+      <edge id="655" source="wuhan" target="cina" weight="2.0" />
+      <edge id="656" source="wuhan" target="delta" weight="1.0" />
+      <edge id="657" source="wuhan" target="gates" weight="3.0" />
+      <edge id="658" source="wuhan" target="netflix" weight="3.0" />
+      <edge id="659" source="wuhan" target="propagandavaccinale" weight="3.0" />
+      <edge id="660" source="wuhan" target="bigtech" weight="2.0" />
+      <edge id="661" source="china" target="coronarovirus" weight="1.0" />
+      <edge id="662" source="china" target="pd" weight="1.0" />
+      <edge id="663" source="china" target="wuhancoronavirus" weight="1.0" />
+      <edge id="664" source="china" target="blackswan" weight="1.0" />
+      <edge id="665" source="china" target="censorship" weight="1.0" />
+      <edge id="666" source="china" target="italy" weight="1.0" />
+      <edge id="667" source="china" target="huawei" weight="1.0" />
+      <edge id="668" source="economiacontagiata" target="tecnologia" weight="8.0" />
+      <edge id="669" source="tecnologia" target="droni" weight="1.0" />
+      <edge id="670" source="tecnologia" target="bigdata" weight="1.0" />
+      <edge id="671" source="tecnologia" target="robot" weight="1.0" />
+      <edge id="672" source="tecnologia" target="covid2019" weight="1.0" />
+      <edge id="673" source="tecnologia" target="zonarossa" weight="1.0" />
+      <edge id="674" source="tecnologia" target="coronavirusitaly" weight="1.0" />
+      <edge id="675" source="tecnologia" target="fotografia" weight="2.0" />
+      <edge id="676" source="tecnologia" target="meizu17" weight="2.0" />
+      <edge id="677" source="tecnologia" target="meizu" weight="2.0" />
+      <edge id="678" source="tecnologia" target="smartphone" weight="2.0" />
+      <edge id="679" source="tecnologia" target="smartphones" weight="2.0" />
+      <edge id="680" source="tecnologia" target="android" weight="2.0" />
+      <edge id="681" source="tecnologia" target="snapdragon" weight="2.0" />
+      <edge id="682" source="tecnologia" target="technews" weight="2.0" />
+      <edge id="683" source="tecnologia" target="techno" weight="2.0" />
+      <edge id="684" source="tecnologia" target="flyme8" weight="2.0" />
+      <edge id="685" source="tecnologia" target="selfie" weight="2.0" />
+      <edge id="686" source="tecnologia" target="fakenews" weight="11.0" />
+      <edge id="687" source="barcellona" target="germania" weight="2.0" />
+      <edge id="688" source="barcellona" target="pillolesuldigitale" weight="2.0" />
+      <edge id="689" source="barcellona" target="19febbraio" weight="2.0" />
+      <edge id="690" source="barcellona" target="huawei" weight="2.0" />
+      <edge id="691" source="germania" target="pillolesuldigitale" weight="2.0" />
+      <edge id="692" source="germania" target="19febbraio" weight="2.0" />
+      <edge id="693" source="germania" target="huawei" weight="2.0" />
+      <edge id="694" source="germania" target="italexit" weight="6.0" />
+      <edge id="695" source="germania" target="crisieconomica" weight="6.0" />
+      <edge id="696" source="germania" target="italia" weight="6.0" />
+      <edge id="697" source="germania" target="francia" weight="6.0" />
+      <edge id="698" source="germania" target="ue" weight="6.0" />
+      <edge id="699" source="germania" target="eurogroupe" weight="6.0" />
+      <edge id="700" source="germania" target="lezzi" weight="6.0" />
+      <edge id="701" source="germania" target="adessodibba" weight="6.0" />
+      <edge id="702" source="huawei" target="pillolesuldigitale" weight="2.0" />
+      <edge id="703" source="huawei" target="19febbraio" weight="2.0" />
+      <edge id="704" source="huawei" target="italy" weight="1.0" />
+      <edge id="705" source="huawei" target="cina" weight="1.0" />
+      <edge id="706" source="pillolesuldigitale" target="19febbraio" weight="2.0" />
+      <edge id="707" source="sicurezzareteinternet" target="coronavirusinformatico" weight="1.0" />
+      <edge id="708" source="sicurezzareteinternet" target="privacy" weight="1.0" />
+      <edge id="709" source="sicurezzareteinternet" target="sicurezza" weight="1.0" />
+      <edge id="710" source="sicurezzareteinternet" target="lavoro" weight="1.0" />
+      <edge id="711" source="lavoro" target="coronavirusinformatico" weight="1.0" />
+      <edge id="712" source="lavoro" target="privacy" weight="1.0" />
+      <edge id="713" source="lavoro" target="sicurezza" weight="1.0" />
+      <edge id="714" source="coronavirusinformatico" target="privacy" weight="1.0" />
+      <edge id="715" source="coronavirusinformatico" target="sicurezza" weight="1.0" />
+      <edge id="716" source="privacy" target="sicurezza" weight="1.0" />
+      <edge id="717" source="privacy" target="trojan" weight="7.0" />
+      <edge id="718" source="privacy" target="report" weight="7.0" />
+      <edge id="719" source="sicurezza" target="cybersecurity" weight="16.0" />
+      <edge id="720" source="sicurezza" target="bandalarga" weight="16.0" />
+      <edge id="721" source="sicurezza" target="sicurezzanazionale" weight="16.0" />
+      <edge id="722" source="sicurezza" target="intelligence" weight="16.0" />
+      <edge id="723" source="ia" target="grillo" weight="2.0" />
+      <edge id="724" source="ia" target="robotica" weight="2.0" />
+      <edge id="725" source="ia" target="umanoidi" weight="2.0" />
+      <edge id="726" source="covid_19" target="smartcity" weight="33.0" />
+      <edge id="727" source="covid_19" target="5gcoronavirus" weight="1.0" />
+      <edge id="728" source="smartcity" target="autonomousvehicles" weight="1.0" />
+      <edge id="729" source="smartcity" target="robotics" weight="1.0" />
+      <edge id="730" source="smartcity" target="robot" weight="1.0" />
+      <edge id="731" source="smartcity" target="iot" weight="1.0" />
+      <edge id="732" source="smartcity" target="robots" weight="1.0" />
+      <edge id="733" source="smartcity" target="tech" weight="1.0" />
+      <edge id="734" source="smartcity" target="driverlesscars" weight="1.0" />
+      <edge id="735" source="smartcity" target="guidaautonoma" weight="1.0" />
+      <edge id="736" source="smartcity" target="driverless" weight="1.0" />
+      <edge id="737" source="smartcity" target="selfdriving" weight="1.0" />
+      <edge id="738" source="smartcity" target="autonomous" weight="1.0" />
+      <edge id="739" source="smartcity" target="selfdrivingcars" weight="1.0" />
+      <edge id="740" source="smartcity" target="startups" weight="1.0" />
+      <edge id="741" source="smartcity" target="artificialintelligence" weight="1.0" />
+      <edge id="742" source="smartcity" target="startup" weight="1.0" />
+      <edge id="743" source="smartcity" target="ai" weight="1.0" />
+      <edge id="744" source="smartcity" target="mobility" weight="1.0" />
+      <edge id="745" source="pd" target="coronarovirus" weight="1.0" />
+      <edge id="746" source="pd" target="wuhancoronavirus" weight="1.0" />
+      <edge id="747" source="pd" target="blackswan" weight="1.0" />
+      <edge id="748" source="pd" target="censorship" weight="1.0" />
+      <edge id="749" source="coronarovirus" target="wuhancoronavirus" weight="1.0" />
+      <edge id="750" source="coronarovirus" target="blackswan" weight="1.0" />
+      <edge id="751" source="coronarovirus" target="censorship" weight="1.0" />
+      <edge id="752" source="censorship" target="wuhancoronavirus" weight="1.0" />
+      <edge id="753" source="censorship" target="blackswan" weight="1.0" />
+      <edge id="754" source="wuhancoronavirus" target="blackswan" weight="1.0" />
+      <edge id="755" source="coronavirusitalia" target="coronavirusitaly" weight="2.0" />
+      <edge id="756" source="coronavirusitalia" target="coviditaly" weight="1.0" />
+      <edge id="757" source="coronavirusitalia" target="coronavirusita" weight="1.0" />
+      <edge id="758" source="coronavirusitalia" target="miwuhan" weight="1.0" />
+      <edge id="759" source="coronavirusitalia" target="matrix" weight="1.0" />
+      <edge id="760" source="coronavirusitalia" target="usacina" weight="1.0" />
+      <edge id="761" source="coronavirusitaly" target="covid2019" weight="1.0" />
+      <edge id="762" source="coronavirusitaly" target="zonarossa" weight="1.0" />
+      <edge id="763" source="diagnosi" target="chinatelecom" weight="1.0" />
+      <edge id="764" source="diagnosi" target="zte" weight="1.0" />
+      <edge id="765" source="diagnosi" target="remoto" weight="1.0" />
+      <edge id="766" source="remoto" target="chinatelecom" weight="1.0" />
+      <edge id="767" source="remoto" target="zte" weight="1.0" />
+      <edge id="768" source="zte" target="chinatelecom" weight="1.0" />
+      <edge id="769" source="asiatica" target="viadellaseta" weight="1.0" />
+      <edge id="770" source="droni" target="bigdata" weight="1.0" />
+      <edge id="771" source="droni" target="robot" weight="1.0" />
+      <edge id="772" source="droni" target="automazione" weight="1.0" />
+      <edge id="773" source="droni" target="videosorveglianza" weight="1.0" />
+      <edge id="774" source="droni" target="security" weight="1.0" />
+      <edge id="775" source="droni" target="telematica" weight="1.0" />
+      <edge id="776" source="droni" target="fabbriche" weight="1.0" />
+      <edge id="777" source="droni" target="tim" weight="1.0" />
+      <edge id="778" source="droni" target="trasporti" weight="1.0" />
+      <edge id="779" source="droni" target="robotica" weight="1.0" />
+      <edge id="780" source="droni" target="ospedali" weight="1.0" />
+      <edge id="781" source="droni" target="febbre" weight="1.0" />
+      <edge id="782" source="droni" target="cina" weight="1.0" />
+      <edge id="783" source="robot" target="bigdata" weight="1.0" />
+      <edge id="784" source="robot" target="autonomousvehicles" weight="1.0" />
+      <edge id="785" source="robot" target="robotics" weight="1.0" />
+      <edge id="786" source="robot" target="iot" weight="1.0" />
+      <edge id="787" source="robot" target="robots" weight="1.0" />
+      <edge id="788" source="robot" target="tech" weight="1.0" />
+      <edge id="789" source="robot" target="driverlesscars" weight="1.0" />
+      <edge id="790" source="robot" target="guidaautonoma" weight="1.0" />
+      <edge id="791" source="robot" target="driverless" weight="1.0" />
+      <edge id="792" source="robot" target="selfdriving" weight="1.0" />
+      <edge id="793" source="robot" target="autonomous" weight="1.0" />
+      <edge id="794" source="robot" target="selfdrivingcars" weight="1.0" />
+      <edge id="795" source="robot" target="startups" weight="1.0" />
+      <edge id="796" source="robot" target="artificialintelligence" weight="1.0" />
+      <edge id="797" source="robot" target="startup" weight="1.0" />
+      <edge id="798" source="robot" target="ai" weight="1.0" />
+      <edge id="799" source="robot" target="mobility" weight="1.0" />
+      <edge id="800" source="assange" target="rifiuti" weight="1.0" />
+      <edge id="801" source="assange" target="usa" weight="1.0" />
+      <edge id="802" source="assange" target="turchia" weight="1.0" />
+      <edge id="803" source="assange" target="paesipoveri" weight="1.0" />
+      <edge id="804" source="turchia" target="rifiuti" weight="1.0" />
+      <edge id="805" source="turchia" target="usa" weight="1.0" />
+      <edge id="806" source="turchia" target="paesipoveri" weight="1.0" />
+      <edge id="807" source="usa" target="rifiuti" weight="1.0" />
+      <edge id="808" source="usa" target="paesipoveri" weight="1.0" />
+      <edge id="809" source="usa" target="attacco" weight="1.0" />
+      <edge id="810" source="usa" target="psyop" weight="1.0" />
+      <edge id="811" source="usa" target="dazi" weight="1.0" />
+      <edge id="812" source="usa" target="guerra" weight="1.0" />
+      <edge id="813" source="usa" target="giochimilitari" weight="1.0" />
+      <edge id="814" source="usa" target="fortbragg" weight="1.0" />
+      <edge id="815" source="usa" target="med" weight="1.0" />
+      <edge id="816" source="usa" target="bioterrorismo" weight="1.0" />
+      <edge id="817" source="usa" target="cina" weight="1.0" />
+      <edge id="818" source="usa" target="delta" weight="1.0" />
+      <edge id="819" source="usa" target="telemedicina" weight="2.0" />
+      <edge id="820" source="usa" target="sanita" weight="2.0" />
+      <edge id="821" source="usa" target="verizon" weight="2.0" />
+      <edge id="822" source="usa" target="ehealth" weight="2.0" />
+      <edge id="823" source="paesipoveri" target="rifiuti" weight="1.0" />
+      <edge id="824" source="cina" target="attacco" weight="1.0" />
+      <edge id="825" source="cina" target="psyop" weight="1.0" />
+      <edge id="826" source="cina" target="dazi" weight="1.0" />
+      <edge id="827" source="cina" target="guerra" weight="1.0" />
+      <edge id="828" source="cina" target="giochimilitari" weight="1.0" />
+      <edge id="829" source="cina" target="fortbragg" weight="1.0" />
+      <edge id="830" source="cina" target="med" weight="1.0" />
+      <edge id="831" source="cina" target="bioterrorismo" weight="1.0" />
+      <edge id="832" source="cina" target="delta" weight="1.0" />
+      <edge id="833" source="cina" target="realtime" weight="6.0" />
+      <edge id="834" source="cina" target="iran" weight="1.0" />
+      <edge id="835" source="cina" target="eurasia" weight="1.0" />
+      <edge id="836" source="cina" target="italia" weight="1.0" />
+      <edge id="837" source="cina" target="guerrabattereologica" weight="1.0" />
+      <edge id="838" source="cina" target="bioterrorism" weight="1.0" />
+      <edge id="839" source="cina" target="greggio" weight="1.0" />
+      <edge id="840" source="cina" target="russia" weight="1.0" />
+      <edge id="841" source="cina" target="oil" weight="1.0" />
+      <edge id="842" source="cina" target="dirittiumani" weight="3.0" />
+      <edge id="843" source="cina" target="iorestoacasa" weight="3.0" />
+      <edge id="844" source="cina" target="lafleacasatua" weight="3.0" />
+      <edge id="845" source="cina" target="europa" weight="3.0" />
+      <edge id="846" source="cina" target="amodeo" weight="3.0" />
+      <edge id="847" source="cina" target="febbre" weight="1.0" />
+      <edge id="848" source="guerra" target="attacco" weight="1.0" />
+      <edge id="849" source="guerra" target="psyop" weight="1.0" />
+      <edge id="850" source="guerra" target="dazi" weight="1.0" />
+      <edge id="851" source="guerra" target="giochimilitari" weight="1.0" />
+      <edge id="852" source="guerra" target="fortbragg" weight="1.0" />
+      <edge id="853" source="guerra" target="med" weight="1.0" />
+      <edge id="854" source="guerra" target="bioterrorismo" weight="1.0" />
+      <edge id="855" source="guerra" target="delta" weight="1.0" />
+      <edge id="856" source="dazi" target="attacco" weight="1.0" />
+      <edge id="857" source="dazi" target="psyop" weight="1.0" />
+      <edge id="858" source="dazi" target="giochimilitari" weight="1.0" />
+      <edge id="859" source="dazi" target="fortbragg" weight="1.0" />
+      <edge id="860" source="dazi" target="med" weight="1.0" />
+      <edge id="861" source="dazi" target="bioterrorismo" weight="1.0" />
+      <edge id="862" source="dazi" target="delta" weight="1.0" />
+      <edge id="863" source="dazi" target="madeinitaly" weight="9.0" />
+      <edge id="864" source="dazi" target="sars" weight="9.0" />
+      <edge id="865" source="attacco" target="psyop" weight="1.0" />
+      <edge id="866" source="attacco" target="giochimilitari" weight="1.0" />
+      <edge id="867" source="attacco" target="fortbragg" weight="1.0" />
+      <edge id="868" source="attacco" target="med" weight="1.0" />
+      <edge id="869" source="attacco" target="bioterrorismo" weight="1.0" />
+      <edge id="870" source="attacco" target="delta" weight="1.0" />
+      <edge id="871" source="bioterrorismo" target="psyop" weight="1.0" />
+      <edge id="872" source="bioterrorismo" target="giochimilitari" weight="1.0" />
+      <edge id="873" source="bioterrorismo" target="fortbragg" weight="1.0" />
+      <edge id="874" source="bioterrorismo" target="med" weight="1.0" />
+      <edge id="875" source="bioterrorismo" target="delta" weight="1.0" />
+      <edge id="876" source="giochimilitari" target="psyop" weight="1.0" />
+      <edge id="877" source="giochimilitari" target="fortbragg" weight="1.0" />
+      <edge id="878" source="giochimilitari" target="med" weight="1.0" />
+      <edge id="879" source="giochimilitari" target="delta" weight="1.0" />
+      <edge id="880" source="fortbragg" target="psyop" weight="1.0" />
+      <edge id="881" source="fortbragg" target="med" weight="1.0" />
+      <edge id="882" source="fortbragg" target="delta" weight="1.0" />
+      <edge id="883" source="psyop" target="med" weight="1.0" />
+      <edge id="884" source="psyop" target="delta" weight="1.0" />
+      <edge id="885" source="med" target="delta" weight="1.0" />
+      <edge id="886" source="sars" target="madeinitaly" weight="9.0" />
+      <edge id="887" source="gates" target="netflix" weight="3.0" />
+      <edge id="888" source="gates" target="propagandavaccinale" weight="3.0" />
+      <edge id="889" source="netflix" target="propagandavaccinale" weight="3.0" />
+      <edge id="890" source="telco" target="covid2019" weight="1.0" />
+      <edge id="891" source="telco" target="digiteconomy24" weight="1.0" />
+      <edge id="892" source="telco" target="tlc" weight="1.0" />
+      <edge id="893" source="telco" target="luissbusiness" weight="1.0" />
+      <edge id="894" source="telco" target="capacità" weight="1.0" />
+      <edge id="895" source="telco" target="ultrabroadband" weight="1.0" />
+      <edge id="896" source="telco" target="network" weight="1.0" />
+      <edge id="897" source="telco" target="networking" weight="1.0" />
+      <edge id="898" source="digiteconomy24" target="covid2019" weight="1.0" />
+      <edge id="899" source="digiteconomy24" target="tlc" weight="1.0" />
+      <edge id="900" source="digiteconomy24" target="luissbusiness" weight="1.0" />
+      <edge id="901" source="luissbusiness" target="covid2019" weight="1.0" />
+      <edge id="902" source="luissbusiness" target="tlc" weight="1.0" />
+      <edge id="903" source="covid2019" target="tlc" weight="1.0" />
+      <edge id="904" source="covid2019" target="facebook" weight="1.0" />
+      <edge id="905" source="covid2019" target="iorestoacasa" weight="1.0" />
+      <edge id="906" source="covid2019" target="twitter" weight="1.0" />
+      <edge id="907" source="covid2019" target="zonarossa" weight="1.0" />
+      <edge id="908" source="tlc" target="covid" weight="1.0" />
+      <edge id="909" source="tlc" target="deeplearning" weight="1.0" />
+      <edge id="910" source="tlc" target="checkout" weight="1.0" />
+      <edge id="911" source="tlc" target="cybersecurity" weight="1.0" />
+      <edge id="912" source="tlc" target="sensorfusion" weight="1.0" />
+      <edge id="913" source="tlc" target="iot" weight="1.0" />
+      <edge id="914" source="tlc" target="palermo" weight="1.0" />
+      <edge id="915" source="tlc" target="amazon" weight="1.0" />
+      <edge id="916" source="tlc" target="computervision" weight="1.0" />
+      <edge id="917" source="vaccini" target="whuan" weight="10.0" />
+      <edge id="918" source="vaccini" target="armabiologica" weight="5.0" />
+      <edge id="919" source="vaccini" target="sistemaimmunitario" weight="5.0" />
+      <edge id="920" source="vaccini" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="921" source="vaccini" target="cia" weight="5.0" />
+      <edge id="922" source="vaccini" target="brevetti" weight="5.0" />
+      <edge id="923" source="vaccini" target="burioni" weight="1.0" />
+      <edge id="924" source="vaccini" target="montanari" weight="1.0" />
+      <edge id="925" source="vaccini" target="byoblu" weight="1.0" />
+      <edge id="926" source="guidaautonoma" target="autonomousvehicles" weight="1.0" />
+      <edge id="927" source="guidaautonoma" target="robotics" weight="1.0" />
+      <edge id="928" source="guidaautonoma" target="iot" weight="1.0" />
+      <edge id="929" source="guidaautonoma" target="robots" weight="1.0" />
+      <edge id="930" source="guidaautonoma" target="tech" weight="1.0" />
+      <edge id="931" source="guidaautonoma" target="driverlesscars" weight="1.0" />
+      <edge id="932" source="guidaautonoma" target="driverless" weight="1.0" />
+      <edge id="933" source="guidaautonoma" target="selfdriving" weight="1.0" />
+      <edge id="934" source="guidaautonoma" target="autonomous" weight="1.0" />
+      <edge id="935" source="guidaautonoma" target="selfdrivingcars" weight="1.0" />
+      <edge id="936" source="guidaautonoma" target="startups" weight="1.0" />
+      <edge id="937" source="guidaautonoma" target="artificialintelligence" weight="1.0" />
+      <edge id="938" source="guidaautonoma" target="startup" weight="1.0" />
+      <edge id="939" source="guidaautonoma" target="ai" weight="1.0" />
+      <edge id="940" source="guidaautonoma" target="mobility" weight="1.0" />
+      <edge id="941" source="selfdrivingcars" target="autonomousvehicles" weight="1.0" />
+      <edge id="942" source="selfdrivingcars" target="robotics" weight="1.0" />
+      <edge id="943" source="selfdrivingcars" target="iot" weight="1.0" />
+      <edge id="944" source="selfdrivingcars" target="robots" weight="1.0" />
+      <edge id="945" source="selfdrivingcars" target="tech" weight="1.0" />
+      <edge id="946" source="selfdrivingcars" target="driverlesscars" weight="1.0" />
+      <edge id="947" source="selfdrivingcars" target="driverless" weight="1.0" />
+      <edge id="948" source="selfdrivingcars" target="selfdriving" weight="1.0" />
+      <edge id="949" source="selfdrivingcars" target="autonomous" weight="1.0" />
+      <edge id="950" source="selfdrivingcars" target="startups" weight="1.0" />
+      <edge id="951" source="selfdrivingcars" target="artificialintelligence" weight="1.0" />
+      <edge id="952" source="selfdrivingcars" target="startup" weight="1.0" />
+      <edge id="953" source="selfdrivingcars" target="ai" weight="1.0" />
+      <edge id="954" source="selfdrivingcars" target="mobility" weight="1.0" />
+      <edge id="955" source="ai" target="autonomousvehicles" weight="1.0" />
+      <edge id="956" source="ai" target="robotics" weight="1.0" />
+      <edge id="957" source="ai" target="iot" weight="1.0" />
+      <edge id="958" source="ai" target="robots" weight="1.0" />
+      <edge id="959" source="ai" target="tech" weight="1.0" />
+      <edge id="960" source="ai" target="driverlesscars" weight="1.0" />
+      <edge id="961" source="ai" target="driverless" weight="1.0" />
+      <edge id="962" source="ai" target="selfdriving" weight="1.0" />
+      <edge id="963" source="ai" target="autonomous" weight="1.0" />
+      <edge id="964" source="ai" target="startups" weight="1.0" />
+      <edge id="965" source="ai" target="artificialintelligence" weight="1.0" />
+      <edge id="966" source="ai" target="startup" weight="1.0" />
+      <edge id="967" source="ai" target="mobility" weight="1.0" />
+      <edge id="968" source="iot" target="autonomousvehicles" weight="1.0" />
+      <edge id="969" source="iot" target="robotics" weight="1.0" />
+      <edge id="970" source="iot" target="robots" weight="1.0" />
+      <edge id="971" source="iot" target="tech" weight="1.0" />
+      <edge id="972" source="iot" target="driverlesscars" weight="1.0" />
+      <edge id="973" source="iot" target="driverless" weight="1.0" />
+      <edge id="974" source="iot" target="selfdriving" weight="1.0" />
+      <edge id="975" source="iot" target="autonomous" weight="1.0" />
+      <edge id="976" source="iot" target="startups" weight="1.0" />
+      <edge id="977" source="iot" target="artificialintelligence" weight="1.0" />
+      <edge id="978" source="iot" target="startup" weight="1.0" />
+      <edge id="979" source="iot" target="mobility" weight="1.0" />
+      <edge id="980" source="iot" target="covid" weight="1.0" />
+      <edge id="981" source="iot" target="deeplearning" weight="1.0" />
+      <edge id="982" source="iot" target="checkout" weight="1.0" />
+      <edge id="983" source="iot" target="cybersecurity" weight="1.0" />
+      <edge id="984" source="iot" target="sensorfusion" weight="1.0" />
+      <edge id="985" source="iot" target="palermo" weight="1.0" />
+      <edge id="986" source="iot" target="amazon" weight="1.0" />
+      <edge id="987" source="iot" target="computervision" weight="1.0" />
+      <edge id="988" source="autonomousvehicles" target="robotics" weight="1.0" />
+      <edge id="989" source="autonomousvehicles" target="robots" weight="1.0" />
+      <edge id="990" source="autonomousvehicles" target="tech" weight="1.0" />
+      <edge id="991" source="autonomousvehicles" target="driverlesscars" weight="1.0" />
+      <edge id="992" source="autonomousvehicles" target="driverless" weight="1.0" />
+      <edge id="993" source="autonomousvehicles" target="selfdriving" weight="1.0" />
+      <edge id="994" source="autonomousvehicles" target="autonomous" weight="1.0" />
+      <edge id="995" source="autonomousvehicles" target="startups" weight="1.0" />
+      <edge id="996" source="autonomousvehicles" target="artificialintelligence" weight="1.0" />
+      <edge id="997" source="autonomousvehicles" target="startup" weight="1.0" />
+      <edge id="998" source="autonomousvehicles" target="mobility" weight="1.0" />
+      <edge id="999" source="selfdriving" target="robotics" weight="1.0" />
+      <edge id="1000" source="selfdriving" target="robots" weight="1.0" />
+      <edge id="1001" source="selfdriving" target="tech" weight="1.0" />
+      <edge id="1002" source="selfdriving" target="driverlesscars" weight="1.0" />
+      <edge id="1003" source="selfdriving" target="driverless" weight="1.0" />
+      <edge id="1004" source="selfdriving" target="autonomous" weight="1.0" />
+      <edge id="1005" source="selfdriving" target="startups" weight="1.0" />
+      <edge id="1006" source="selfdriving" target="artificialintelligence" weight="1.0" />
+      <edge id="1007" source="selfdriving" target="startup" weight="1.0" />
+      <edge id="1008" source="selfdriving" target="mobility" weight="1.0" />
+      <edge id="1009" source="autonomous" target="robotics" weight="1.0" />
+      <edge id="1010" source="autonomous" target="robots" weight="1.0" />
+      <edge id="1011" source="autonomous" target="tech" weight="1.0" />
+      <edge id="1012" source="autonomous" target="driverlesscars" weight="1.0" />
+      <edge id="1013" source="autonomous" target="driverless" weight="1.0" />
+      <edge id="1014" source="autonomous" target="startups" weight="1.0" />
+      <edge id="1015" source="autonomous" target="artificialintelligence" weight="1.0" />
+      <edge id="1016" source="autonomous" target="startup" weight="1.0" />
+      <edge id="1017" source="autonomous" target="mobility" weight="1.0" />
+      <edge id="1018" source="robotics" target="robots" weight="1.0" />
+      <edge id="1019" source="robotics" target="tech" weight="1.0" />
+      <edge id="1020" source="robotics" target="driverlesscars" weight="1.0" />
+      <edge id="1021" source="robotics" target="driverless" weight="1.0" />
+      <edge id="1022" source="robotics" target="startups" weight="1.0" />
+      <edge id="1023" source="robotics" target="artificialintelligence" weight="1.0" />
+      <edge id="1024" source="robotics" target="startup" weight="1.0" />
+      <edge id="1025" source="robotics" target="mobility" weight="1.0" />
+      <edge id="1026" source="tech" target="robots" weight="1.0" />
+      <edge id="1027" source="tech" target="driverlesscars" weight="1.0" />
+      <edge id="1028" source="tech" target="driverless" weight="1.0" />
+      <edge id="1029" source="tech" target="startups" weight="1.0" />
+      <edge id="1030" source="tech" target="artificialintelligence" weight="1.0" />
+      <edge id="1031" source="tech" target="startup" weight="1.0" />
+      <edge id="1032" source="tech" target="mobility" weight="1.0" />
+      <edge id="1033" source="driverless" target="robots" weight="1.0" />
+      <edge id="1034" source="driverless" target="driverlesscars" weight="1.0" />
+      <edge id="1035" source="driverless" target="startups" weight="1.0" />
+      <edge id="1036" source="driverless" target="artificialintelligence" weight="1.0" />
+      <edge id="1037" source="driverless" target="startup" weight="1.0" />
+      <edge id="1038" source="driverless" target="mobility" weight="1.0" />
+      <edge id="1039" source="driverlesscars" target="robots" weight="1.0" />
+      <edge id="1040" source="driverlesscars" target="startups" weight="1.0" />
+      <edge id="1041" source="driverlesscars" target="artificialintelligence" weight="1.0" />
+      <edge id="1042" source="driverlesscars" target="startup" weight="1.0" />
+      <edge id="1043" source="driverlesscars" target="mobility" weight="1.0" />
+      <edge id="1044" source="startups" target="robots" weight="1.0" />
+      <edge id="1045" source="startups" target="artificialintelligence" weight="1.0" />
+      <edge id="1046" source="startups" target="startup" weight="1.0" />
+      <edge id="1047" source="startups" target="mobility" weight="1.0" />
+      <edge id="1048" source="startup" target="robots" weight="1.0" />
+      <edge id="1049" source="startup" target="artificialintelligence" weight="1.0" />
+      <edge id="1050" source="startup" target="mobility" weight="1.0" />
+      <edge id="1051" source="artificialintelligence" target="robots" weight="1.0" />
+      <edge id="1052" source="artificialintelligence" target="mobility" weight="1.0" />
+      <edge id="1053" source="robots" target="mobility" weight="1.0" />
+      <edge id="1054" source="armabiologica" target="sistemaimmunitario" weight="5.0" />
+      <edge id="1055" source="armabiologica" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="1056" source="armabiologica" target="cia" weight="5.0" />
+      <edge id="1057" source="armabiologica" target="brevetti" weight="5.0" />
+      <edge id="1058" source="brevetti" target="sistemaimmunitario" weight="5.0" />
+      <edge id="1059" source="brevetti" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="1060" source="brevetti" target="cia" weight="5.0" />
+      <edge id="1061" source="cia" target="sistemaimmunitario" weight="5.0" />
+      <edge id="1062" source="cia" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="1063" source="sistemaimmunitario" target="resetfinanziarioglobale" weight="5.0" />
+      <edge id="1064" source="bandalarga" target="cybersecurity" weight="16.0" />
+      <edge id="1065" source="bandalarga" target="sicurezzanazionale" weight="16.0" />
+      <edge id="1066" source="bandalarga" target="intelligence" weight="16.0" />
+      <edge id="1067" source="intelligence" target="cybersecurity" weight="16.0" />
+      <edge id="1068" source="intelligence" target="sicurezzanazionale" weight="16.0" />
+      <edge id="1069" source="sicurezzanazionale" target="cybersecurity" weight="16.0" />
+      <edge id="1070" source="cybersecurity" target="covid" weight="1.0" />
+      <edge id="1071" source="cybersecurity" target="deeplearning" weight="1.0" />
+      <edge id="1072" source="cybersecurity" target="checkout" weight="1.0" />
+      <edge id="1073" source="cybersecurity" target="sensorfusion" weight="1.0" />
+      <edge id="1074" source="cybersecurity" target="palermo" weight="1.0" />
+      <edge id="1075" source="cybersecurity" target="amazon" weight="1.0" />
+      <edge id="1076" source="cybersecurity" target="computervision" weight="1.0" />
+      <edge id="1077" source="studio" target="video" weight="1.0" />
+      <edge id="1078" source="immunodepressione" target="virus" weight="1.0" />
+      <edge id="1079" source="virus" target="pandemie" weight="1.0" />
+      <edge id="1080" source="virus" target="falsainformazione" weight="1.0" />
+      <edge id="1081" source="virus" target="murdrers" weight="1.0" />
+      <edge id="1082" source="telematica" target="automazione" weight="1.0" />
+      <edge id="1083" source="telematica" target="videosorveglianza" weight="1.0" />
+      <edge id="1084" source="telematica" target="security" weight="1.0" />
+      <edge id="1085" source="telematica" target="fabbriche" weight="1.0" />
+      <edge id="1086" source="telematica" target="tim" weight="1.0" />
+      <edge id="1087" source="telematica" target="trasporti" weight="1.0" />
+      <edge id="1088" source="telematica" target="robotica" weight="1.0" />
+      <edge id="1089" source="telematica" target="ospedali" weight="1.0" />
+      <edge id="1090" source="ospedali" target="automazione" weight="1.0" />
+      <edge id="1091" source="ospedali" target="videosorveglianza" weight="1.0" />
+      <edge id="1092" source="ospedali" target="security" weight="1.0" />
+      <edge id="1093" source="ospedali" target="fabbriche" weight="1.0" />
+      <edge id="1094" source="ospedali" target="tim" weight="1.0" />
+      <edge id="1095" source="ospedali" target="trasporti" weight="1.0" />
+      <edge id="1096" source="ospedali" target="robotica" weight="1.0" />
+      <edge id="1097" source="fabbriche" target="automazione" weight="1.0" />
+      <edge id="1098" source="fabbriche" target="videosorveglianza" weight="1.0" />
+      <edge id="1099" source="fabbriche" target="security" weight="1.0" />
+      <edge id="1100" source="fabbriche" target="tim" weight="1.0" />
+      <edge id="1101" source="fabbriche" target="trasporti" weight="1.0" />
+      <edge id="1102" source="fabbriche" target="robotica" weight="1.0" />
+      <edge id="1103" source="automazione" target="videosorveglianza" weight="1.0" />
+      <edge id="1104" source="automazione" target="security" weight="1.0" />
+      <edge id="1105" source="automazione" target="tim" weight="1.0" />
+      <edge id="1106" source="automazione" target="trasporti" weight="1.0" />
+      <edge id="1107" source="automazione" target="robotica" weight="1.0" />
+      <edge id="1108" source="trasporti" target="videosorveglianza" weight="1.0" />
+      <edge id="1109" source="trasporti" target="security" weight="1.0" />
+      <edge id="1110" source="trasporti" target="tim" weight="1.0" />
+      <edge id="1111" source="trasporti" target="robotica" weight="1.0" />
+      <edge id="1112" source="videosorveglianza" target="security" weight="1.0" />
+      <edge id="1113" source="videosorveglianza" target="tim" weight="1.0" />
+      <edge id="1114" source="videosorveglianza" target="robotica" weight="1.0" />
+      <edge id="1115" source="security" target="tim" weight="1.0" />
+      <edge id="1116" source="security" target="robotica" weight="1.0" />
+      <edge id="1117" source="robotica" target="tim" weight="1.0" />
+      <edge id="1118" source="robotica" target="grillo" weight="2.0" />
+      <edge id="1119" source="robotica" target="umanoidi" weight="2.0" />
+      <edge id="1120" source="idiotiallosbando" target="agi" weight="1.0" />
+      <edge id="1121" source="umanoidi" target="grillo" weight="2.0" />
+      <edge id="1122" source="apple" target="appleblog" weight="2.0" />
+      <edge id="1123" source="apple" target="iphone" weight="2.0" />
+      <edge id="1124" source="apple" target="bloomberg" weight="2.0" />
+      <edge id="1125" source="apple" target="applenews" weight="2.0" />
+      <edge id="1126" source="bloomberg" target="appleblog" weight="2.0" />
+      <edge id="1127" source="bloomberg" target="iphone" weight="2.0" />
+      <edge id="1128" source="bloomberg" target="applenews" weight="2.0" />
+      <edge id="1129" source="iphone" target="appleblog" weight="2.0" />
+      <edge id="1130" source="iphone" target="applenews" weight="2.0" />
+      <edge id="1131" source="appleblog" target="applenews" weight="2.0" />
+      <edge id="1132" source="twitter" target="facebook" weight="1.0" />
+      <edge id="1133" source="twitter" target="iorestoacasa" weight="1.0" />
+      <edge id="1134" source="facebook" target="iorestoacasa" weight="1.0" />
+      <edge id="1135" source="iorestoacasa" target="4g" weight="2.0" />
+      <edge id="1136" source="iorestoacasa" target="internet" weight="2.0" />
+      <edge id="1137" source="iorestoacasa" target="leolov" weight="2.0" />
+      <edge id="1138" source="iorestoacasa" target="3g" weight="2.0" />
+      <edge id="1139" source="iorestoacasa" target="homeoffice" weight="2.0" />
+      <edge id="1140" source="iorestoacasa" target="vodafone" weight="2.0" />
+      <edge id="1141" source="iorestoacasa" target="dirittiumani" weight="3.0" />
+      <edge id="1142" source="iorestoacasa" target="lafleacasatua" weight="3.0" />
+      <edge id="1143" source="homeoffice" target="4g" weight="2.0" />
+      <edge id="1144" source="homeoffice" target="internet" weight="2.0" />
+      <edge id="1145" source="homeoffice" target="leolov" weight="2.0" />
+      <edge id="1146" source="homeoffice" target="3g" weight="2.0" />
+      <edge id="1147" source="homeoffice" target="vodafone" weight="2.0" />
+      <edge id="1148" source="vodafone" target="4g" weight="2.0" />
+      <edge id="1149" source="vodafone" target="internet" weight="2.0" />
+      <edge id="1150" source="vodafone" target="leolov" weight="2.0" />
+      <edge id="1151" source="vodafone" target="3g" weight="2.0" />
+      <edge id="1152" source="vodafone" target="corona" weight="1.0" />
+      <edge id="1153" source="4g" target="internet" weight="2.0" />
+      <edge id="1154" source="4g" target="leolov" weight="2.0" />
+      <edge id="1155" source="4g" target="3g" weight="2.0" />
+      <edge id="1156" source="3g" target="internet" weight="2.0" />
+      <edge id="1157" source="3g" target="leolov" weight="2.0" />
+      <edge id="1158" source="internet" target="leolov" weight="2.0" />
+      <edge id="1159" source="madeinchina" target="defendereurope20" weight="1.0" />
+      <edge id="1160" source="verizon" target="telemedicina" weight="2.0" />
+      <edge id="1161" source="verizon" target="sanita" weight="2.0" />
+      <edge id="1162" source="verizon" target="ehealth" weight="2.0" />
+      <edge id="1163" source="verizon" target="iwce2020" weight="2.0" />
+      <edge id="1164" source="verizon" target="wireless" weight="2.0" />
+      <edge id="1165" source="verizon" target="uav" weight="2.0" />
+      <edge id="1166" source="verizon" target="att" weight="2.0" />
+      <edge id="1167" source="verizon" target="commercialdrones" weight="2.0" />
+      <edge id="1168" source="verizon" target="tmobile" weight="2.0" />
+      <edge id="1169" source="verizon" target="sprint" weight="2.0" />
+      <edge id="1170" source="verizon" target="drones" weight="2.0" />
+      <edge id="1171" source="verizon" target="drone" weight="2.0" />
+      <edge id="1172" source="verizon" target="lasvegas" weight="2.0" />
+      <edge id="1173" source="verizon" target="telecom" weight="2.0" />
+      <edge id="1174" source="verizon" target="uas" weight="2.0" />
+      <edge id="1175" source="verizon" target="droneinspections" weight="2.0" />
+      <edge id="1176" source="verizon" target="lte" weight="2.0" />
+      <edge id="1177" source="ehealth" target="telemedicina" weight="2.0" />
+      <edge id="1178" source="ehealth" target="sanita" weight="2.0" />
+      <edge id="1179" source="telemedicina" target="sanita" weight="2.0" />
+      <edge id="1180" source="game" target="rogphone" weight="1.0" />
+      <edge id="1181" source="game" target="smarphone" weight="1.0" />
+      <edge id="1182" source="game" target="googlestadia" weight="1.0" />
+      <edge id="1183" source="game" target="gaming" weight="1.0" />
+      <edge id="1184" source="game" target="snapdragon" weight="1.0" />
+      <edge id="1185" source="game" target="android10" weight="1.0" />
+      <edge id="1186" source="game" target="asus" weight="1.0" />
+      <edge id="1187" source="rogphone" target="smarphone" weight="1.0" />
+      <edge id="1188" source="rogphone" target="googlestadia" weight="1.0" />
+      <edge id="1189" source="rogphone" target="gaming" weight="1.0" />
+      <edge id="1190" source="rogphone" target="snapdragon" weight="1.0" />
+      <edge id="1191" source="rogphone" target="android10" weight="1.0" />
+      <edge id="1192" source="rogphone" target="asus" weight="1.0" />
+      <edge id="1193" source="gaming" target="smarphone" weight="1.0" />
+      <edge id="1194" source="gaming" target="googlestadia" weight="1.0" />
+      <edge id="1195" source="gaming" target="snapdragon" weight="1.0" />
+      <edge id="1196" source="gaming" target="android10" weight="1.0" />
+      <edge id="1197" source="gaming" target="asus" weight="1.0" />
+      <edge id="1198" source="googlestadia" target="smarphone" weight="1.0" />
+      <edge id="1199" source="googlestadia" target="snapdragon" weight="1.0" />
+      <edge id="1200" source="googlestadia" target="android10" weight="1.0" />
+      <edge id="1201" source="googlestadia" target="asus" weight="1.0" />
+      <edge id="1202" source="smarphone" target="snapdragon" weight="1.0" />
+      <edge id="1203" source="smarphone" target="android10" weight="1.0" />
+      <edge id="1204" source="smarphone" target="asus" weight="1.0" />
+      <edge id="1205" source="asus" target="snapdragon" weight="1.0" />
+      <edge id="1206" source="asus" target="android10" weight="1.0" />
+      <edge id="1207" source="snapdragon" target="android10" weight="1.0" />
+      <edge id="1208" source="snapdragon" target="fotografia" weight="2.0" />
+      <edge id="1209" source="snapdragon" target="meizu17" weight="2.0" />
+      <edge id="1210" source="snapdragon" target="meizu" weight="2.0" />
+      <edge id="1211" source="snapdragon" target="smartphone" weight="2.0" />
+      <edge id="1212" source="snapdragon" target="smartphones" weight="2.0" />
+      <edge id="1213" source="snapdragon" target="android" weight="2.0" />
+      <edge id="1214" source="snapdragon" target="technews" weight="2.0" />
+      <edge id="1215" source="snapdragon" target="techno" weight="2.0" />
+      <edge id="1216" source="snapdragon" target="flyme8" weight="2.0" />
+      <edge id="1217" source="snapdragon" target="selfie" weight="2.0" />
+      <edge id="1218" source="iwce2020" target="wireless" weight="2.0" />
+      <edge id="1219" source="iwce2020" target="uav" weight="2.0" />
+      <edge id="1220" source="iwce2020" target="att" weight="2.0" />
+      <edge id="1221" source="iwce2020" target="commercialdrones" weight="2.0" />
+      <edge id="1222" source="iwce2020" target="tmobile" weight="2.0" />
+      <edge id="1223" source="iwce2020" target="sprint" weight="2.0" />
+      <edge id="1224" source="iwce2020" target="drones" weight="2.0" />
+      <edge id="1225" source="iwce2020" target="drone" weight="2.0" />
+      <edge id="1226" source="iwce2020" target="lasvegas" weight="2.0" />
+      <edge id="1227" source="iwce2020" target="telecom" weight="2.0" />
+      <edge id="1228" source="iwce2020" target="uas" weight="2.0" />
+      <edge id="1229" source="iwce2020" target="droneinspections" weight="2.0" />
+      <edge id="1230" source="iwce2020" target="lte" weight="2.0" />
+      <edge id="1231" source="lasvegas" target="wireless" weight="2.0" />
+      <edge id="1232" source="lasvegas" target="uav" weight="2.0" />
+      <edge id="1233" source="lasvegas" target="att" weight="2.0" />
+      <edge id="1234" source="lasvegas" target="commercialdrones" weight="2.0" />
+      <edge id="1235" source="lasvegas" target="tmobile" weight="2.0" />
+      <edge id="1236" source="lasvegas" target="sprint" weight="2.0" />
+      <edge id="1237" source="lasvegas" target="drones" weight="2.0" />
+      <edge id="1238" source="lasvegas" target="drone" weight="2.0" />
+      <edge id="1239" source="lasvegas" target="telecom" weight="2.0" />
+      <edge id="1240" source="lasvegas" target="uas" weight="2.0" />
+      <edge id="1241" source="lasvegas" target="droneinspections" weight="2.0" />
+      <edge id="1242" source="lasvegas" target="lte" weight="2.0" />
+      <edge id="1243" source="wireless" target="uav" weight="2.0" />
+      <edge id="1244" source="wireless" target="att" weight="2.0" />
+      <edge id="1245" source="wireless" target="commercialdrones" weight="2.0" />
+      <edge id="1246" source="wireless" target="tmobile" weight="2.0" />
+      <edge id="1247" source="wireless" target="sprint" weight="2.0" />
+      <edge id="1248" source="wireless" target="drones" weight="2.0" />
+      <edge id="1249" source="wireless" target="drone" weight="2.0" />
+      <edge id="1250" source="wireless" target="telecom" weight="2.0" />
+      <edge id="1251" source="wireless" target="uas" weight="2.0" />
+      <edge id="1252" source="wireless" target="droneinspections" weight="2.0" />
+      <edge id="1253" source="wireless" target="lte" weight="2.0" />
+      <edge id="1254" source="lte" target="uav" weight="2.0" />
+      <edge id="1255" source="lte" target="att" weight="2.0" />
+      <edge id="1256" source="lte" target="commercialdrones" weight="2.0" />
+      <edge id="1257" source="lte" target="tmobile" weight="2.0" />
+      <edge id="1258" source="lte" target="sprint" weight="2.0" />
+      <edge id="1259" source="lte" target="drones" weight="2.0" />
+      <edge id="1260" source="lte" target="drone" weight="2.0" />
+      <edge id="1261" source="lte" target="telecom" weight="2.0" />
+      <edge id="1262" source="lte" target="uas" weight="2.0" />
+      <edge id="1263" source="lte" target="droneinspections" weight="2.0" />
+      <edge id="1264" source="telecom" target="uav" weight="2.0" />
+      <edge id="1265" source="telecom" target="att" weight="2.0" />
+      <edge id="1266" source="telecom" target="commercialdrones" weight="2.0" />
+      <edge id="1267" source="telecom" target="tmobile" weight="2.0" />
+      <edge id="1268" source="telecom" target="sprint" weight="2.0" />
+      <edge id="1269" source="telecom" target="drones" weight="2.0" />
+      <edge id="1270" source="telecom" target="drone" weight="2.0" />
+      <edge id="1271" source="telecom" target="uas" weight="2.0" />
+      <edge id="1272" source="telecom" target="droneinspections" weight="2.0" />
+      <edge id="1273" source="att" target="uav" weight="2.0" />
+      <edge id="1274" source="att" target="commercialdrones" weight="2.0" />
+      <edge id="1275" source="att" target="tmobile" weight="2.0" />
+      <edge id="1276" source="att" target="sprint" weight="2.0" />
+      <edge id="1277" source="att" target="drones" weight="2.0" />
+      <edge id="1278" source="att" target="drone" weight="2.0" />
+      <edge id="1279" source="att" target="uas" weight="2.0" />
+      <edge id="1280" source="att" target="droneinspections" weight="2.0" />
+      <edge id="1281" source="tmobile" target="uav" weight="2.0" />
+      <edge id="1282" source="tmobile" target="commercialdrones" weight="2.0" />
+      <edge id="1283" source="tmobile" target="sprint" weight="2.0" />
+      <edge id="1284" source="tmobile" target="drones" weight="2.0" />
+      <edge id="1285" source="tmobile" target="drone" weight="2.0" />
+      <edge id="1286" source="tmobile" target="uas" weight="2.0" />
+      <edge id="1287" source="tmobile" target="droneinspections" weight="2.0" />
+      <edge id="1288" source="sprint" target="uav" weight="2.0" />
+      <edge id="1289" source="sprint" target="commercialdrones" weight="2.0" />
+      <edge id="1290" source="sprint" target="drones" weight="2.0" />
+      <edge id="1291" source="sprint" target="drone" weight="2.0" />
+      <edge id="1292" source="sprint" target="uas" weight="2.0" />
+      <edge id="1293" source="sprint" target="droneinspections" weight="2.0" />
+      <edge id="1294" source="commercialdrones" target="uav" weight="2.0" />
+      <edge id="1295" source="commercialdrones" target="drones" weight="2.0" />
+      <edge id="1296" source="commercialdrones" target="drone" weight="2.0" />
+      <edge id="1297" source="commercialdrones" target="uas" weight="2.0" />
+      <edge id="1298" source="commercialdrones" target="droneinspections" weight="2.0" />
+      <edge id="1299" source="droneinspections" target="uav" weight="2.0" />
+      <edge id="1300" source="droneinspections" target="drones" weight="2.0" />
+      <edge id="1301" source="droneinspections" target="drone" weight="2.0" />
+      <edge id="1302" source="droneinspections" target="uas" weight="2.0" />
+      <edge id="1303" source="drones" target="uav" weight="2.0" />
+      <edge id="1304" source="drones" target="drone" weight="2.0" />
+      <edge id="1305" source="drones" target="uas" weight="2.0" />
+      <edge id="1306" source="drone" target="uav" weight="2.0" />
+      <edge id="1307" source="drone" target="uas" weight="2.0" />
+      <edge id="1308" source="uav" target="uas" weight="2.0" />
+      <edge id="1309" source="pandemia" target="iorestocasa" weight="1.0" />
+      <edge id="1310" source="pandemia" target="telelavoro" weight="1.0" />
+      <edge id="1311" source="pandemia" target="didatticaadistanza" weight="1.0" />
+      <edge id="1312" source="pandemia" target="smartworking" weight="1.0" />
+      <edge id="1313" source="pandemia" target="chiusuratotale" weight="1.0" />
+      <edge id="1314" source="pandemia" target="svizzera" weight="2.0" />
+      <edge id="1315" source="pandemia" target="oms" weight="2.0" />
+      <edge id="1316" source="pandemia" target="covid_19italia" weight="14.0" />
+      <edge id="1317" source="pandemia" target="daleggere" weight="1.0" />
+      <edge id="1318" source="pandemia" target="eu" weight="1.0" />
+      <edge id="1319" source="iorestocasa" target="telelavoro" weight="1.0" />
+      <edge id="1320" source="iorestocasa" target="didatticaadistanza" weight="1.0" />
+      <edge id="1321" source="iorestocasa" target="smartworking" weight="1.0" />
+      <edge id="1322" source="iorestocasa" target="chiusuratotale" weight="1.0" />
+      <edge id="1323" source="chiusuratotale" target="telelavoro" weight="1.0" />
+      <edge id="1324" source="chiusuratotale" target="didatticaadistanza" weight="1.0" />
+      <edge id="1325" source="chiusuratotale" target="smartworking" weight="1.0" />
+      <edge id="1326" source="smartworking" target="telelavoro" weight="1.0" />
+      <edge id="1327" source="smartworking" target="didatticaadistanza" weight="1.0" />
+      <edge id="1328" source="smartworking" target="deglobalizzazione" weight="2.0" />
+      <edge id="1329" source="smartworking" target="economia" weight="2.0" />
+      <edge id="1330" source="smartworking" target="globalizzazione" weight="2.0" />
+      <edge id="1331" source="smartworking" target="epidemia" weight="2.0" />
+      <edge id="1332" source="telelavoro" target="didatticaadistanza" weight="1.0" />
+      <edge id="1333" source="lezzi" target="italexit" weight="6.0" />
+      <edge id="1334" source="lezzi" target="crisieconomica" weight="6.0" />
+      <edge id="1335" source="lezzi" target="italia" weight="6.0" />
+      <edge id="1336" source="lezzi" target="francia" weight="6.0" />
+      <edge id="1337" source="lezzi" target="ue" weight="6.0" />
+      <edge id="1338" source="lezzi" target="eurogroupe" weight="6.0" />
+      <edge id="1339" source="lezzi" target="adessodibba" weight="6.0" />
+      <edge id="1340" source="crisieconomica" target="italexit" weight="6.0" />
+      <edge id="1341" source="crisieconomica" target="italia" weight="6.0" />
+      <edge id="1342" source="crisieconomica" target="francia" weight="6.0" />
+      <edge id="1343" source="crisieconomica" target="ue" weight="6.0" />
+      <edge id="1344" source="crisieconomica" target="eurogroupe" weight="6.0" />
+      <edge id="1345" source="crisieconomica" target="adessodibba" weight="6.0" />
+      <edge id="1346" source="ue" target="italexit" weight="6.0" />
+      <edge id="1347" source="ue" target="italia" weight="6.0" />
+      <edge id="1348" source="ue" target="francia" weight="6.0" />
+      <edge id="1349" source="ue" target="eurogroupe" weight="6.0" />
+      <edge id="1350" source="ue" target="adessodibba" weight="6.0" />
+      <edge id="1351" source="italia" target="italexit" weight="6.0" />
+      <edge id="1352" source="italia" target="francia" weight="6.0" />
+      <edge id="1353" source="italia" target="eurogroupe" weight="6.0" />
+      <edge id="1354" source="italia" target="adessodibba" weight="6.0" />
+      <edge id="1355" source="italia" target="iran" weight="1.0" />
+      <edge id="1356" source="italia" target="eurasia" weight="1.0" />
+      <edge id="1357" source="italia" target="guerrabattereologica" weight="1.0" />
+      <edge id="1358" source="italia" target="bioterrorism" weight="1.0" />
+      <edge id="1359" source="italia" target="greggio" weight="1.0" />
+      <edge id="1360" source="italia" target="russia" weight="1.0" />
+      <edge id="1361" source="italia" target="oil" weight="1.0" />
+      <edge id="1362" source="italia" target="quarantena" weight="2.0" />
+      <edge id="1363" source="italia" target="ministerodellasalute" weight="2.0" />
+      <edge id="1364" source="italia" target="fakenews" weight="2.0" />
+      <edge id="1365" source="eurogroupe" target="italexit" weight="6.0" />
+      <edge id="1366" source="eurogroupe" target="francia" weight="6.0" />
+      <edge id="1367" source="eurogroupe" target="adessodibba" weight="6.0" />
+      <edge id="1368" source="italexit" target="francia" weight="6.0" />
+      <edge id="1369" source="italexit" target="adessodibba" weight="6.0" />
+      <edge id="1370" source="francia" target="adessodibba" weight="6.0" />
+      <edge id="1371" source="svizzera" target="oms" weight="2.0" />
+      <edge id="1372" source="cercasicavieumane" target="stop5g" weight="3.0" />
+      <edge id="1373" source="cercasicavieumane" target="coronashow" weight="2.0" />
+      <edge id="1374" source="stop5g" target="coronashow" weight="2.0" />
+      <edge id="1375" source="stop5g" target="coronavirusitalla" weight="1.0" />
+      <edge id="1376" source="stop5g" target="sarscov2" weight="1.0" />
+      <edge id="1377" source="stop5g" target="covid19italy" weight="1.0" />
+      <edge id="1378" source="stop5g" target="covid2019italia" weight="1.0" />
+      <edge id="1379" source="stop5g" target="covidー19" weight="1.0" />
+      <edge id="1380" source="stop5g" target="demonescimmia" weight="1.0" />
+      <edge id="1381" source="aerei" target="sindaci" weight="1.0" />
+      <edge id="1382" source="aerei" target="comuni" weight="1.0" />
+      <edge id="1383" source="sindaci" target="comuni" weight="1.0" />
+      <edge id="1384" source="meizu" target="fotografia" weight="2.0" />
+      <edge id="1385" source="meizu" target="meizu17" weight="2.0" />
+      <edge id="1386" source="meizu" target="smartphone" weight="2.0" />
+      <edge id="1387" source="meizu" target="smartphones" weight="2.0" />
+      <edge id="1388" source="meizu" target="android" weight="2.0" />
+      <edge id="1389" source="meizu" target="technews" weight="2.0" />
+      <edge id="1390" source="meizu" target="techno" weight="2.0" />
+      <edge id="1391" source="meizu" target="flyme8" weight="2.0" />
+      <edge id="1392" source="meizu" target="selfie" weight="2.0" />
+      <edge id="1393" source="android" target="fotografia" weight="2.0" />
+      <edge id="1394" source="android" target="meizu17" weight="2.0" />
+      <edge id="1395" source="android" target="smartphone" weight="2.0" />
+      <edge id="1396" source="android" target="smartphones" weight="2.0" />
+      <edge id="1397" source="android" target="technews" weight="2.0" />
+      <edge id="1398" source="android" target="techno" weight="2.0" />
+      <edge id="1399" source="android" target="flyme8" weight="2.0" />
+      <edge id="1400" source="android" target="selfie" weight="2.0" />
+      <edge id="1401" source="smartphone" target="fotografia" weight="2.0" />
+      <edge id="1402" source="smartphone" target="meizu17" weight="2.0" />
+      <edge id="1403" source="smartphone" target="smartphones" weight="2.0" />
+      <edge id="1404" source="smartphone" target="technews" weight="2.0" />
+      <edge id="1405" source="smartphone" target="techno" weight="2.0" />
+      <edge id="1406" source="smartphone" target="flyme8" weight="2.0" />
+      <edge id="1407" source="smartphone" target="selfie" weight="2.0" />
+      <edge id="1408" source="flyme8" target="fotografia" weight="2.0" />
+      <edge id="1409" source="flyme8" target="meizu17" weight="2.0" />
+      <edge id="1410" source="flyme8" target="smartphones" weight="2.0" />
+      <edge id="1411" source="flyme8" target="technews" weight="2.0" />
+      <edge id="1412" source="flyme8" target="techno" weight="2.0" />
+      <edge id="1413" source="flyme8" target="selfie" weight="2.0" />
+      <edge id="1414" source="meizu17" target="fotografia" weight="2.0" />
+      <edge id="1415" source="meizu17" target="smartphones" weight="2.0" />
+      <edge id="1416" source="meizu17" target="technews" weight="2.0" />
+      <edge id="1417" source="meizu17" target="techno" weight="2.0" />
+      <edge id="1418" source="meizu17" target="selfie" weight="2.0" />
+      <edge id="1419" source="smartphones" target="fotografia" weight="2.0" />
+      <edge id="1420" source="smartphones" target="technews" weight="2.0" />
+      <edge id="1421" source="smartphones" target="techno" weight="2.0" />
+      <edge id="1422" source="smartphones" target="selfie" weight="2.0" />
+      <edge id="1423" source="techno" target="fotografia" weight="2.0" />
+      <edge id="1424" source="techno" target="technews" weight="2.0" />
+      <edge id="1425" source="techno" target="selfie" weight="2.0" />
+      <edge id="1426" source="technews" target="fotografia" weight="2.0" />
+      <edge id="1427" source="technews" target="selfie" weight="2.0" />
+      <edge id="1428" source="fotografia" target="selfie" weight="2.0" />
+      <edge id="1429" source="stopchemtrails" target="geoingineering" weight="4.0" />
+      <edge id="1430" source="stopchemtrails" target="geoingenieria" weight="4.0" />
+      <edge id="1431" source="stopchemtrails" target="omm" weight="4.0" />
+      <edge id="1432" source="stopchemtrails" target="manipulacionclimatica" weight="4.0" />
+      <edge id="1433" source="stopchemtrails" target="nwo" weight="4.0" />
+      <edge id="1434" source="stopchemtrails" target="fumigaciones" weight="2.0" />
+      <edge id="1435" source="stopchemtrails" target="5gstop" weight="4.0" />
+      <edge id="1436" source="fumigaciones" target="geoingineering" weight="2.0" />
+      <edge id="1437" source="fumigaciones" target="geoingenieria" weight="2.0" />
+      <edge id="1438" source="fumigaciones" target="omm" weight="2.0" />
+      <edge id="1439" source="fumigaciones" target="manipulacionclimatica" weight="2.0" />
+      <edge id="1440" source="fumigaciones" target="nwo" weight="2.0" />
+      <edge id="1441" source="fumigaciones" target="5gstop" weight="2.0" />
+      <edge id="1442" source="manipulacionclimatica" target="geoingineering" weight="4.0" />
+      <edge id="1443" source="manipulacionclimatica" target="geoingenieria" weight="4.0" />
+      <edge id="1444" source="manipulacionclimatica" target="omm" weight="4.0" />
+      <edge id="1445" source="manipulacionclimatica" target="nwo" weight="4.0" />
+      <edge id="1446" source="manipulacionclimatica" target="5gstop" weight="4.0" />
+      <edge id="1447" source="geoingineering" target="geoingenieria" weight="4.0" />
+      <edge id="1448" source="geoingineering" target="omm" weight="4.0" />
+      <edge id="1449" source="geoingineering" target="nwo" weight="4.0" />
+      <edge id="1450" source="geoingineering" target="5gstop" weight="4.0" />
+      <edge id="1451" source="geoingenieria" target="omm" weight="4.0" />
+      <edge id="1452" source="geoingenieria" target="nwo" weight="4.0" />
+      <edge id="1453" source="geoingenieria" target="5gstop" weight="4.0" />
+      <edge id="1454" source="5gstop" target="omm" weight="4.0" />
+      <edge id="1455" source="5gstop" target="nwo" weight="4.0" />
+      <edge id="1456" source="omm" target="nwo" weight="4.0" />
+      <edge id="1457" source="bioterrorism" target="iran" weight="1.0" />
+      <edge id="1458" source="bioterrorism" target="eurasia" weight="1.0" />
+      <edge id="1459" source="bioterrorism" target="guerrabattereologica" weight="1.0" />
+      <edge id="1460" source="bioterrorism" target="greggio" weight="1.0" />
+      <edge id="1461" source="bioterrorism" target="russia" weight="1.0" />
+      <edge id="1462" source="bioterrorism" target="oil" weight="1.0" />
+      <edge id="1463" source="guerrabattereologica" target="iran" weight="1.0" />
+      <edge id="1464" source="guerrabattereologica" target="eurasia" weight="1.0" />
+      <edge id="1465" source="guerrabattereologica" target="greggio" weight="1.0" />
+      <edge id="1466" source="guerrabattereologica" target="russia" weight="1.0" />
+      <edge id="1467" source="guerrabattereologica" target="oil" weight="1.0" />
+      <edge id="1468" source="oil" target="iran" weight="1.0" />
+      <edge id="1469" source="oil" target="eurasia" weight="1.0" />
+      <edge id="1470" source="oil" target="greggio" weight="1.0" />
+      <edge id="1471" source="oil" target="russia" weight="1.0" />
+      <edge id="1472" source="greggio" target="iran" weight="1.0" />
+      <edge id="1473" source="greggio" target="eurasia" weight="1.0" />
+      <edge id="1474" source="greggio" target="russia" weight="1.0" />
+      <edge id="1475" source="eurasia" target="iran" weight="1.0" />
+      <edge id="1476" source="eurasia" target="russia" weight="1.0" />
+      <edge id="1477" source="russia" target="iran" weight="1.0" />
+      <edge id="1478" source="independencedaynet" target="newworldweb2020" weight="1.0" />
+      <edge id="1479" source="independencedaynet" target="whatmediadontsay" weight="1.0" />
+      <edge id="1480" source="newworldweb2020" target="whatmediadontsay" weight="1.0" />
+      <edge id="1481" source="mes" target="vaccino" weight="1.0" />
+      <edge id="1482" source="positivo" target="fottenasega" weight="1.0" />
+      <edge id="1483" source="daleggere" target="fakenews" weight="4.0" />
+      <edge id="1484" source="daleggere" target="eu" weight="1.0" />
+      <edge id="1485" source="fakenews" target="quarantena" weight="2.0" />
+      <edge id="1486" source="fakenews" target="ministerodellasalute" weight="2.0" />
+      <edge id="1487" source="governo" target="22marzo" weight="1.0" />
+      <edge id="1488" source="governo" target="covid19italia" weight="1.0" />
+      <edge id="1489" source="governo" target="5gcoronavirus" weight="1.0" />
+      <edge id="1490" source="governo" target="covidiot" weight="1.0" />
+      <edge id="1491" source="governo" target="coronavid19" weight="1.0" />
+      <edge id="1492" source="coronavid19" target="22marzo" weight="1.0" />
+      <edge id="1493" source="coronavid19" target="covid19italia" weight="1.0" />
+      <edge id="1494" source="coronavid19" target="5gcoronavirus" weight="1.0" />
+      <edge id="1495" source="coronavid19" target="covidiot" weight="1.0" />
+      <edge id="1496" source="covidiot" target="22marzo" weight="1.0" />
+      <edge id="1497" source="covidiot" target="covid19italia" weight="1.0" />
+      <edge id="1498" source="covidiot" target="5gcoronavirus" weight="1.0" />
+      <edge id="1499" source="5gcoronavirus" target="22marzo" weight="1.0" />
+      <edge id="1500" source="5gcoronavirus" target="covid19italia" weight="1.0" />
+      <edge id="1501" source="5gcoronavirus" target="coronashow" weight="1.0" />
+      <edge id="1502" source="covid19italia" target="22marzo" weight="1.0" />
+      <edge id="1503" source="gunter" target="covid" weight="1.0" />
+      <edge id="1504" source="gunter" target="moratoria" weight="1.0" />
+      <edge id="1505" source="gunter" target="pauli" weight="1.0" />
+      <edge id="1506" source="gunter" target="chigi" weight="1.0" />
+      <edge id="1507" source="gunter" target="conte" weight="1.0" />
+      <edge id="1508" source="pauli" target="covid" weight="1.0" />
+      <edge id="1509" source="pauli" target="moratoria" weight="1.0" />
+      <edge id="1510" source="pauli" target="chigi" weight="1.0" />
+      <edge id="1511" source="pauli" target="conte" weight="1.0" />
+      <edge id="1512" source="chigi" target="covid" weight="1.0" />
+      <edge id="1513" source="chigi" target="moratoria" weight="1.0" />
+      <edge id="1514" source="chigi" target="conte" weight="1.0" />
+      <edge id="1515" source="conte" target="covid" weight="1.0" />
+      <edge id="1516" source="conte" target="moratoria" weight="1.0" />
+      <edge id="1517" source="conte" target="gunterpauli" weight="1.0" />
+      <edge id="1518" source="covid" target="moratoria" weight="1.0" />
+      <edge id="1519" source="covid" target="fakenewsmedia" weight="1.0" />
+      <edge id="1520" source="covid" target="deeplearning" weight="1.0" />
+      <edge id="1521" source="covid" target="checkout" weight="1.0" />
+      <edge id="1522" source="covid" target="sensorfusion" weight="1.0" />
+      <edge id="1523" source="covid" target="palermo" weight="1.0" />
+      <edge id="1524" source="covid" target="amazon" weight="1.0" />
+      <edge id="1525" source="covid" target="computervision" weight="1.0" />
+      <edge id="1526" source="stayathome" target="restiamoacasa" weight="2.0" />
+      <edge id="1527" source="decretocuraitalia" target="sindacati" weight="15.0" />
+      <edge id="1528" source="decretocuraitalia" target="boccia" weight="15.0" />
+      <edge id="1529" source="decretocuraitalia" target="gunterpauli" weight="15.0" />
+      <edge id="1530" source="decretocuraitalia" target="palazzochigi" weight="15.0" />
+      <edge id="1531" source="decretocuraitalia" target="confindustria" weight="15.0" />
+      <edge id="1532" source="sindacati" target="boccia" weight="15.0" />
+      <edge id="1533" source="sindacati" target="gunterpauli" weight="15.0" />
+      <edge id="1534" source="sindacati" target="palazzochigi" weight="15.0" />
+      <edge id="1535" source="sindacati" target="confindustria" weight="15.0" />
+      <edge id="1536" source="boccia" target="gunterpauli" weight="15.0" />
+      <edge id="1537" source="boccia" target="palazzochigi" weight="15.0" />
+      <edge id="1538" source="boccia" target="confindustria" weight="15.0" />
+      <edge id="1539" source="confindustria" target="gunterpauli" weight="15.0" />
+      <edge id="1540" source="confindustria" target="palazzochigi" weight="15.0" />
+      <edge id="1541" source="gunterpauli" target="palazzochigi" weight="15.0" />
+      <edge id="1542" source="dirittiumani" target="lafleacasatua" weight="3.0" />
+      <edge id="1543" source="coronavirusita" target="miwuhan" weight="1.0" />
+      <edge id="1544" source="coronavirusita" target="matrix" weight="1.0" />
+      <edge id="1545" source="miwuhan" target="matrix" weight="1.0" />
+      <edge id="1546" source="europa" target="amodeo" weight="3.0" />
+      <edge id="1547" source="montanari" target="burioni" weight="1.0" />
+      <edge id="1548" source="montanari" target="byoblu" weight="1.0" />
+      <edge id="1549" source="burioni" target="byoblu" weight="1.0" />
+      <edge id="1550" source="quarantena" target="cavie" weight="1.0" />
+      <edge id="1551" source="quarantena" target="resistenzaitaliana2020" weight="1.0" />
+      <edge id="1552" source="quarantena" target="roma" weight="1.0" />
+      <edge id="1553" source="quarantena" target="ministerodellasalute" weight="2.0" />
+      <edge id="1554" source="cavie" target="resistenzaitaliana2020" weight="1.0" />
+      <edge id="1555" source="cavie" target="roma" weight="1.0" />
+      <edge id="1556" source="roma" target="resistenzaitaliana2020" weight="1.0" />
+      <edge id="1557" source="globalizzazione" target="deglobalizzazione" weight="2.0" />
+      <edge id="1558" source="globalizzazione" target="economia" weight="2.0" />
+      <edge id="1559" source="globalizzazione" target="epidemia" weight="2.0" />
+      <edge id="1560" source="deglobalizzazione" target="economia" weight="2.0" />
+      <edge id="1561" source="deglobalizzazione" target="epidemia" weight="2.0" />
+      <edge id="1562" source="epidemia" target="economia" weight="2.0" />
+      <edge id="1563" source="pandemie" target="falsainformazione" weight="1.0" />
+      <edge id="1564" source="pandemie" target="murdrers" weight="1.0" />
+      <edge id="1565" source="falsainformazione" target="murdrers" weight="1.0" />
+      <edge id="1566" source="covidー19" target="coronavirusitalla" weight="1.0" />
+      <edge id="1567" source="covidー19" target="sarscov2" weight="1.0" />
+      <edge id="1568" source="covidー19" target="covid19italy" weight="1.0" />
+      <edge id="1569" source="covidー19" target="covid2019italia" weight="1.0" />
+      <edge id="1570" source="covidー19" target="demonescimmia" weight="1.0" />
+      <edge id="1571" source="report" target="trojan" weight="7.0" />
+      <edge id="1572" source="sadefenza" target="sciechimiche" weight="1.0" />
+      <edge id="1573" source="sadefenza" target="g5" weight="1.0" />
+      <edge id="1574" source="sciechimiche" target="g5" weight="1.0" />
+      <edge id="1575" source="checkout" target="deeplearning" weight="1.0" />
+      <edge id="1576" source="checkout" target="sensorfusion" weight="1.0" />
+      <edge id="1577" source="checkout" target="palermo" weight="1.0" />
+      <edge id="1578" source="checkout" target="amazon" weight="1.0" />
+      <edge id="1579" source="checkout" target="computervision" weight="1.0" />
+      <edge id="1580" source="amazon" target="deeplearning" weight="1.0" />
+      <edge id="1581" source="amazon" target="sensorfusion" weight="1.0" />
+      <edge id="1582" source="amazon" target="palermo" weight="1.0" />
+      <edge id="1583" source="amazon" target="computervision" weight="1.0" />
+      <edge id="1584" source="computervision" target="deeplearning" weight="1.0" />
+      <edge id="1585" source="computervision" target="sensorfusion" weight="1.0" />
+      <edge id="1586" source="computervision" target="palermo" weight="1.0" />
+      <edge id="1587" source="deeplearning" target="sensorfusion" weight="1.0" />
+      <edge id="1588" source="deeplearning" target="palermo" weight="1.0" />
+      <edge id="1589" source="sensorfusion" target="palermo" weight="1.0" />
+      <edge id="1590" source="networking" target="capacità" weight="1.0" />
+      <edge id="1591" source="networking" target="ultrabroadband" weight="1.0" />
+      <edge id="1592" source="networking" target="network" weight="1.0" />
+      <edge id="1593" source="capacità" target="ultrabroadband" weight="1.0" />
+      <edge id="1594" source="capacità" target="network" weight="1.0" />
+      <edge id="1595" source="network" target="ultrabroadband" weight="1.0" />
+      <edge id="1596" source="demonescimmia" target="coronavirusitalla" weight="1.0" />
+      <edge id="1597" source="demonescimmia" target="sarscov2" weight="1.0" />
+      <edge id="1598" source="demonescimmia" target="covid19italy" weight="1.0" />
+      <edge id="1599" source="demonescimmia" target="covid2019italia" weight="1.0" />
+      <edge id="1600" source="sarscov2" target="coronavirusitalla" weight="1.0" />
+      <edge id="1601" source="sarscov2" target="covid19italy" weight="1.0" />
+      <edge id="1602" source="sarscov2" target="covid2019italia" weight="1.0" />
+      <edge id="1603" source="covid2019italia" target="coronavirusitalla" weight="1.0" />
+      <edge id="1604" source="covid2019italia" target="covid19italy" weight="1.0" />
+      <edge id="1605" source="coronavirusitalla" target="covid19italy" weight="1.0" />
+      <edge id="1606" source="complottismo" target="granbretagna" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
