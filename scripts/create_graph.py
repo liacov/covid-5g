@@ -90,11 +90,7 @@ if __name__ == "__main__":
                 if G.has_edge(*edge):
                     G.get_edge_data(*edge)['weight'] += weight_increment
                 else:
-                    G.add_edge(*edge, weight=default_weight)
-
-    # get largest connected component
-    largest_cc = max(nx.connected_components(G), key=len)
-    cc = G.subgraph(largest_cc).copy()
+                    G.add_edgTweetse(*edge, weight=default_weight)
 
     # Save adjacency matrix
     print('Savign adjacency matrix as {}'.format(args.adj_path))

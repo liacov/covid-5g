@@ -1,0 +1,184 @@
+############ Networks description ############
+
+
+Removing the seed hashtags, the 5g network has a largest component of size 1463, 89% of the total.
+
+Removing the seed hashtags, the covid network has a largest component of size 295, 100% of the total.
+
+Removing the seed hashtags, the 5gANDcovid network has a largest component of size 197, 71% of the total.
+
+
+############ Communities ############
+
+With resulution fixed to 1 and threshold approximately equal to 5% of the graph size:
+
+
+####### Network: 5g ########
+There are 106.0 communities
+-> 8 communities remaining after filtering
+
+
+--Community: 0, Size: 204---
+cybersecurity ,centrality: 0.0677
+innovazione ,centrality: 0.0615
+tecnologia ,centrality: 0.0603
+internet ,centrality: 0.0511
+intelligenzaartificiale ,centrality: 0.0443
+
+---Community: 1, Size: 133---
+italia ,centrality: 0.1175
+huawei ,centrality: 0.0892
+cina ,centrality: 0.0622
+usa ,centrality: 0.0511
+ue ,centrality: 0.0406
+
+---Community: 2, Size: 270---
+smartphone ,centrality: 0.1028
+xiaomi ,centrality: 0.0468
+mobile ,centrality: 0.0468
+qualcomm ,centrality: 0.0351
+mi10 ,centrality: 0.0289
+
+---Community: 3, Size: 76---
+salute ,centrality: 0.0265
+4g ,centrality: 0.0240
+network ,centrality: 0.0172
+telco ,centrality: 0.0160
+healthcare ,centrality: 0.0117
+
+---Community: 6, Size: 113---
+covid19 ,centrality: 0.0929
+fakenews ,centrality: 0.0228
+vaccini ,centrality: 0.0191
+coronavirusupdate ,centrality: 0.0185
+europa ,centrality: 0.0142
+
+---Community: 9, Size: 243---
+coronavirus ,centrality: 0.2148
+covid19italia ,centrality: 0.0418
+virus ,centrality: 0.0388
+covid2019 ,centrality: 0.0369
+stop5g ,centrality: 0.0369
+
+---Community: 10, Size: 110---
+smartworking ,centrality: 0.0578
+economia ,centrality: 0.0363
+fibra ,centrality: 0.0283
+fastweb ,centrality: 0.0271
+rete ,centrality: 0.0271
+
+---Community: 11, Size: 95---
+tim ,centrality: 0.0572
+vodafone ,centrality: 0.0345
+edgecomputing ,centrality: 0.0234
+tv ,centrality: 0.0197
+smartcities ,centrality: 0.0191
+
+
+
+
+
+
+####### Network: covid ########
+There are 19.0 communities
+-> 6 communities remaining after filtering
+
+---Community: 0, Size: 92---
+5g ,centrality: 1.0000
+cina ,centrality: 0.0986
+wuhan ,centrality: 0.0680
+smartcity ,centrality: 0.0680
+pandemia ,centrality: 0.0374
+
+---Community: 1, Size: 20---
+tecnologia ,centrality: 0.0680
+snapdragon ,centrality: 0.0646
+meizu ,centrality: 0.0408
+android ,centrality: 0.0408
+smartphone ,centrality: 0.0408
+
+---Community: 2, Size: 21---
+italia ,centrality: 0.0680
+germania ,centrality: 0.0442
+lezzi ,centrality: 0.0306
+crisieconomica ,centrality: 0.0306
+ue ,centrality: 0.0306
+
+---Community: 7, Size: 24---
+iot ,centrality: 0.0884
+robot ,centrality: 0.0714
+guidaautonoma ,centrality: 0.0612
+selfdrivingcars ,centrality: 0.0612
+ai ,centrality: 0.0612
+
+---Community: 8, Size: 19---
+usa ,centrality: 0.0680
+dazi ,centrality: 0.0476
+guerra ,centrality: 0.0408
+attacco ,centrality: 0.0408
+bioterrorismo ,centrality: 0.0408
+
+---Community: 9, Size: 19---
+iorestoacasa ,centrality: 0.0442
+covid2019 ,centrality: 0.0374
+telco ,centrality: 0.0306
+vodafone ,centrality: 0.0272
+homeoffice ,centrality: 0.0238
+
+
+
+
+####### Network: 5gANDcovid ########
+There are 67.0 communities
+-> 7 communities remaining after filtering
+
+---Community: 1, Size: 17---
+coronavirusitalia ,centrality: 0.1282
+coronaviruschina ,centrality: 0.0366
+coronaviruscanada ,centrality: 0.0366
+coronavirusoutbreak ,centrality: 0.0330
+coronavirusjapan ,centrality: 0.0330
+
+---Community: 3, Size: 17---
+cina ,centrality: 0.1099
+viruscorona ,centrality: 0.0476
+pechino ,centrality: 0.0403
+aggiornamento ,centrality: 0.0366
+viruscina ,centrality: 0.0366
+
+---Community: 4, Size: 44---
+covid19italia ,centrality: 0.0952
+coronavirusitalla ,centrality: 0.0586
+covidー19 ,centrality: 0.0513
+covid_19 ,centrality: 0.0513
+portaaporta ,centrality: 0.0366
+
+---Community: 6, Size: 47---
+conte ,centrality: 0.0879
+lombardia ,centrality: 0.0733
+governo ,centrality: 0.0623
+radiosavana ,centrality: 0.0586
+fontana ,centrality: 0.0549
+
+---Community: 10, Size: 27---
+italia ,centrality: 0.0879
+mattarella ,centrality: 0.0366
+drittoerovescio ,centrality: 0.0366
+iraq ,centrality: 0.0293
+turchia ,centrality: 0.0293
+
+---Community: 14, Size: 15---
+migranti ,centrality: 0.0403
+veneto ,centrality: 0.0366
+africa ,centrality: 0.0330
+quarantena ,centrality: 0.0256
+voeuganeo ,centrality: 0.0220
+
+---Community: 17, Size: 15---
+covid2019 ,centrality: 0.0586
+ansa ,centrality: 0.0147
+hongkong ,centrality: 0.0147
+iostoacasa ,centrality: 0.0147
+italie ,centrality: 0.0110
+
+
