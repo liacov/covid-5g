@@ -47,4 +47,4 @@ Downloading samples...
 
 - ```--auth_path```: path of the autentication keys file. Default: `data/auth.json`;
 
--```--seed```: seed for the random sampling.
+- ```--seed```: seed for the random sampling.
